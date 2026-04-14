@@ -14,8 +14,34 @@ Provides configuration files for:
 ### Installation: <!-- markdownlint-disable MD001 -->
 
 ```bash
-bun install --peer @postfmly/config
+bun install --dev @postfmly/config
 ```
 
-<!-- npm publish -->
-<!-- npm unpublish @postfmly/config@1.0.0 --force -->
+### Using:
+
+- Copies the `.vscode` configuration files to your project
+
+```jsonc
+// package.json
+
+scripts: {
+  "postinstall": "config-init"
+}
+```
+---
+
+### Publishing:
+
+#### Publish
+
+- ***NOTE: Using NPM because Bun does not include README.md in metadata for Verdaccio***
+
+```bash
+npm publish
+```
+
+#### Unpublish
+
+```bash
+npm unpublish @postfmly/config@[version] --force
+```

@@ -18,19 +18,16 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "config-init": "./bin/init.sh"
+    "config-init": "./bin/init"
   },
-  "files": [
-    ".vscode/",
-    "biome.json",
-    "bin/"
-  ],
   "scripts": {
     "preinstall": "bunx only-allow bun",
-    "lint": "biome check --write --verbose . ../vscode/"
+    "lint": "biome check --write --verbose . ../vscode/",
+    "version:major": "npm version --no-git-tag-version major",
+    "version:minor": "npm version --no-git-tag-version minor",
+    "version:patch": "npm version --no-git-tag-version patch"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.11",
-    "@bun-security-scanner/osv": "^1.0.0"
+    "@biomejs/biome": "^2.4.11"
   }
 }
