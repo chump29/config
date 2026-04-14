@@ -1,0 +1,36 @@
+{
+  "name": "@postfmly/config",
+  "version": "1.0.0",
+  "description": "Configuration files",
+  "keywords": [
+    "config"
+  ],
+  "homepage": "https://github.com/chump29/config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chump29/config.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Chris Post",
+    "email": "admin@postfmly.com"
+  },
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "config-init": "./bin/init.sh"
+  },
+  "files": [
+    ".vscode/",
+    "biome.json",
+    "bin/"
+  ],
+  "scripts": {
+    "preinstall": "bunx only-allow bun",
+    "lint": "biome check --write --verbose . ../vscode/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.11",
+    "@bun-security-scanner/osv": "^1.0.0"
+  }
+}
