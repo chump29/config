@@ -20,6 +20,11 @@
   "bin": {
     "config-init": "./bin/init"
   },
+  "files": [
+    ".vscode/",
+    "biome.json",
+    "bin/"
+  ],
   "scripts": {
     "preinstall": "bunx only-allow bun",
     "lint": "biome check --write --verbose . ../vscode/",
