@@ -33,6 +33,7 @@
     "version:patch": "npm version --no-git-tag-version patch"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.11"
+    "@biomejs/biome": "^2.4.11",
+    "@bun-security-scanner/osv": "^1.0.0"
   }
 }

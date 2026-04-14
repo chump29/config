@@ -227,19 +227,28 @@
       },
       "correctness": {
         "noChildrenProp": "error",
+        "noConstantCondition": "error",
         "noUndeclaredDependencies": "off",
         "noUnresolvedImports": "off",
         "noUnusedFunctionParameters": "error",
         "noUnusedVariables": "error",
+        "useExhaustiveDependencies": "error",
         "useJsxKeyInIterable": "error",
         "useUniqueElementIds": "off"
       },
       "nursery": {
+        "noComponentHookFactories": "error",
         "noConditionalExpect": "error",
+        "noIdenticalTestTitle": "error",
         "noImpliedEval": "error",
+        "noJsxNamespace": "error",
+        "noMisleadingReturnType": "error",
         "useExpect": "error",
         "useExplicitType": "error",
-        "useImportsFirst": "error"
+        "useIframeSandbox": "error",
+        "useImportsFirst": "error",
+        "useStringStartsEndsWith": "error",
+        "useVarsOnTop": "error"
       },
       "performance": {
         "noAccumulatingSpread": "error",
@@ -318,8 +327,12 @@
             "useValidTypeof": "error",
             "useYield": "error"
           },
+          "nursery": {
+            "useReduceTypeParameter": "error"
+          },
           "style": {
             "noInferrableTypes": "off",
+            "noMagicNumbers": "error",
             "noUnusedTemplateLiteral": "error",
             "useImportType": {
               "level": "error",
