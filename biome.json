@@ -18,6 +18,8 @@
               ":BLANK_LINE:",
               ":BUN:",
               ":BLANK_LINE:",
+              "discord.js",
+              ":BLANK_LINE:",
               ":PACKAGE:",
               ":BLANK_LINE:",
               ":PATH:"
