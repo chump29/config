@@ -244,7 +244,6 @@
         "noIdenticalTestTitle": "error",
         "noImpliedEval": "error",
         "noJsxNamespace": "error",
-        "noMisleadingReturnType": "error",
         "useExpect": "error",
         "useExplicitType": "error",
         "useIframeSandbox": "error",

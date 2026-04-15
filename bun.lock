@@ -5,7 +5,7 @@
     "": {
       "name": "@postfmly/config",
       "devDependencies": {
-        "@biomejs/biome": "^2.4.11",
+        "@biomejs/biome": "^2.4.12",
         "@bun-security-scanner/osv": "^1.0.0",
       },
     },
