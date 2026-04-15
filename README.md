@@ -7,6 +7,7 @@
 Provides configuration files for:
 
 - Biome
+- TypeScript
 - VSCode
 
 ---
@@ -17,9 +18,9 @@ Provides configuration files for:
 bun install --dev @postfmly/config
 ```
 
-### Using:
+---
 
-- Copies the `.vscode` configuration files to your project
+### Use:
 
 ```jsonc
 // package.json
@@ -28,13 +29,37 @@ scripts: {
   "postinstall": "config-init"
 }
 ```
+
+```jsonc
+// biome.json
+
+{
+  "extends": [
+    "@postfmly/config/biome.json"
+  ]
+}
+```
+
+```jsonc
+// tsconfig.json
+
+{
+  "extends": "./node_modules/@postfmly/config/tsconfig",
+  "compilerOptions": {
+    "types": [
+      "[TYPES]"
+    ]
+  }
+}
+```
+
 ---
 
 ### Publishing:
 
 #### Publish
 
-- ***NOTE: Using NPM because Bun does not include README.md in metadata for Verdaccio***
+- *NOTE: Using NPM because Bun does not include README.md in metadata for Verdaccio*
 
 ```bash
 npm publish

@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -23,7 +23,8 @@
   "files": [
     ".vscode/",
     "biome.json",
-    "bin/"
+    "bin/",
+    "tsconfig.json"
   ],
   "scripts": {
     "preinstall": "bunx only-allow bun",
