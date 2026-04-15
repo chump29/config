@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -28,10 +28,7 @@
   ],
   "scripts": {
     "preinstall": "bunx only-allow bun",
-    "lint": "biome check --write --verbose . ../vscode/",
-    "version:major": "npm version --no-git-tag-version major",
-    "version:minor": "npm version --no-git-tag-version minor",
-    "version:patch": "npm version --no-git-tag-version patch"
+    "lint": "biome check --write --verbose . ../vscode/"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.12",

@@ -12,13 +12,17 @@ Provides configuration files for:
 
 ---
 
+![Biome](https://img.shields.io/badge/Biome-~2-informational?style=plastic&logo=biome) &nbsp;
+![Bun](https://img.shields.io/badge/Bun-~1.3-informational?style=plastic&logo=bun) &nbsp;
+![Node](https://img.shields.io/badge/Node.js-~24-informational?style=plastic&logo=nodedotjs)
+
+---
+
 ### Installation: <!-- markdownlint-disable MD001 -->
 
 ```bash
 bun install --dev @postfmly/config
 ```
-
----
 
 ### Use:
 
@@ -56,6 +60,12 @@ scripts: {
 ---
 
 ### Publishing:
+
+#### Increment version
+
+```bash
+npm version --no-git-tag-version [type]
+```
 
 #### Publish
 

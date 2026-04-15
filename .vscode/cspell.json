@@ -30,6 +30,7 @@
     "dotenv",
     "dozzle",
     "envsubst",
+    "extlen",
     "fastapi",
     "FURB",
     "gitea",

@@ -80,6 +80,11 @@
     },
     "MD026": {
       "punctuation": ".,;!"
+    },
+    "MD033": {
+      "allowed_elements": [
+        "sup"
+      ]
     }
   },
   "shellcheck.customArgs": [
