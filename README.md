@@ -61,18 +61,10 @@ scripts: {
 
 ### Publishing:
 
-#### Increment version
-
-```bash
-npm version --no-git-tag-version [type]
-```
-
 #### Publish
 
-- *NOTE: Using NPM because Bun does not include README.md in metadata for Verdaccio*
-
 ```bash
-npm publish
+./publish.sh
 ```
 
 #### Unpublish
