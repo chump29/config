@@ -12,9 +12,8 @@ Provides configuration files for:
 
 ---
 
-![Biome](https://img.shields.io/badge/Biome-~2-informational?style=plastic&logo=biome) &nbsp;
-![Bun](https://img.shields.io/badge/Bun-~1.3-informational?style=plastic&logo=bun) &nbsp;
-![Node](https://img.shields.io/badge/Node.js-~24-informational?style=plastic&logo=nodedotjs)
+![Biome](https://img.shields.io/badge/Biome-^2.4.12-informational?style=plastic&logo=biome) &nbsp;
+![Bun](https://img.shields.io/badge/Bun-~1.3.12-informational?style=plastic&logo=bun)
 
 ---
 
