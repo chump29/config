@@ -29,6 +29,7 @@
     "dockge",
     "dotenv",
     "dozzle",
+    "dropzonebot",
     "envsubst",
     "extlen",
     "fastapi",
@@ -67,6 +68,7 @@
     "venv",
     "vite",
     "wallos",
+    "welcomebot",
     "whatsupdocker",
     "wikijs",
     "WSGI"

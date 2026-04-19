@@ -244,6 +244,7 @@
         "noIdenticalTestTitle": "error",
         "noImpliedEval": "error",
         "noJsxNamespace": "error",
+        "noNestedPromises": "error",
         "useExpect": "error",
         "useExplicitType": "error",
         "useIframeSandbox": "error",
@@ -275,12 +276,14 @@
         "useTemplate": "error"
       },
       "suspicious": {
+        "noAsyncPromiseExecutor": "error",
         "noCommentText": "error",
         "noDuplicateJsxProps": "error",
         "noExplicitAny": "error",
         "noExtraNonNullAssertion": "error",
         "noMisleadingInstantiator": "error",
         "noNonNullAssertedOptionalChain": "error",
+        "noThenProperty": "error",
         "noTsIgnore": "error",
         "noUnsafeDeclarationMerging": "error",
         "useNamespaceKeyword": "error"
@@ -343,7 +346,6 @@
             }
           },
           "suspicious": {
-            "noAsyncPromiseExecutor": "error",
             "noCatchAssign": "error",
             "noClassAssign": "error",
             "noCompareNegZero": "error",
