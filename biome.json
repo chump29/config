@@ -213,6 +213,7 @@
   "linter": {
     "enabled": true,
     "domains": {
+      "drizzle": "all",
       "project": "all",
       "react": "all",
       "test": "all",
