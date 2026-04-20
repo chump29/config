@@ -12,15 +12,10 @@ Provides configuration files for:
 
 ---
 
-![Biome](https://img.shields.io/badge/Biome-^2.4.12-informational?style=plastic&logo=biome) &nbsp;
-![Bun](https://img.shields.io/badge/Bun-~1.3.12-informational?style=plastic&logo=bun)
-
----
-
 ### Installation: <!-- markdownlint-disable MD001 -->
 
 ```bash
-bun install --dev @postfmly/config
+bun add --dev @postfmly/config
 ```
 
 ### Use:
@@ -55,6 +50,8 @@ scripts: {
   }
 }
 ```
+
+- NOTE: `node` is already included in `TYPES`
 
 ---
 
