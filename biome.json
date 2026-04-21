@@ -232,7 +232,6 @@
         "noChildrenProp": "error",
         "noConstantCondition": "error",
         "noUndeclaredDependencies": "off",
-        "noUnresolvedImports": "warn",
         "noUnusedFunctionParameters": "error",
         "noUnusedVariables": "error",
         "useExhaustiveDependencies": "error",
