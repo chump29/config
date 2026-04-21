@@ -7,6 +7,7 @@
     "csvlinter.csvlinter-vscode",
     "darkriszty.markdown-table-prettify",
     "davidanson.vscode-markdownlint",
+    "fractalbrew.backticks",
     "humao.rest-client",
     "mechatroner.rainbow-csv",
     "ms-azuretools.vscode-containers",
@@ -18,6 +19,8 @@
     "streetsidesoftware.code-spell-checker",
     "tamasfe.even-better-toml",
     "timonwong.shellcheck",
-    "vitest.explorer"
+    "vitest.explorer",
+    "wix.vscode-import-cost",
+    "yoavbls.pretty-ts-errors"
   ]
 }

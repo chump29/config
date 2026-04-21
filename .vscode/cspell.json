@@ -58,6 +58,7 @@
     "pyproject",
     "PYTHONDONTWRITEBYTECODE",
     "PYTHONUNBUFFERED",
+    "randomwordbot",
     "redoc",
     "rxtrax",
     "smober",
