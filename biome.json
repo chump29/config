@@ -232,10 +232,11 @@
         "noChildrenProp": "error",
         "noConstantCondition": "error",
         "noUndeclaredDependencies": "off",
-        "noUnresolvedImports": "off",
+        "noUnresolvedImports": "warn",
         "noUnusedFunctionParameters": "error",
         "noUnusedVariables": "error",
         "useExhaustiveDependencies": "error",
+        "useJsonImportAttributes": "error",
         "useJsxKeyInIterable": "error",
         "useUniqueElementIds": "off"
       },
@@ -269,11 +270,13 @@
       },
       "style": {
         "noCommonJs": "error",
+        "noExportedImports": "error",
         "noNamespace": "error",
         "useArrayLiterals": "error",
         "useAsConstAssertion": "error",
         "useBlockStatements": "off",
         "useConst": "error",
+        "useNodejsImportProtocol": "error",
         "useTemplate": "error"
       },
       "suspicious": {
