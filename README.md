@@ -66,5 +66,9 @@ scripts: {
 #### Unpublish
 
 ```bash
+# current version
+npm unpublish --force
+
+# specific version
 npm unpublish @postfmly/config@[version] --force
 ```
