@@ -243,6 +243,7 @@
       "nursery": {
         "noComponentHookFactories": "error",
         "noConditionalExpect": "error",
+        "noExcessiveNestedCallbacks": "error",
         "noIdenticalTestTitle": "error",
         "noImpliedEval": "error",
         "noJsxNamespace": "error",
@@ -255,6 +256,7 @@
         "useExplicitType": "error",
         "useIframeSandbox": "error",
         "useImportsFirst": "error",
+        "useMathMinMax": "error",
         "useRegexpTest": "error",
         "useStringStartsEndsWith": "error",
         "useVarsOnTop": "error"
