@@ -1,3 +1,7 @@
 #!/usr/bin/env -S bash -e
 
-/usr/bin/rsync --dirs --delete --update ./node_modules/@postfmly/config/.vscode/ "$(/usr/bin/git rev-parse --show-toplevel)/.vscode"
+_dir=$(/usr/bin/git rev-parse --show-toplevel)
+
+/usr/bin/rm -rf "$_dir/.vscode"
+
+/usr/bin/cp -rf "$_dir/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
