@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -16,7 +16,6 @@
     "email": "admin@postfmly.com"
   },
   "type": "module",
-  "main": "index.js",
   "bin": {
     "config-init": "./bin/init"
   },
@@ -27,7 +26,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "lint": "biome check --write --verbose . ../vscode/"
+    "lint": "biome check --write --verbose ."
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.14"

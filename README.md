@@ -12,13 +12,13 @@ Provides configuration files for:
 
 ---
 
-### Installation: <!-- markdownlint-disable MD001 -->
+### Installation <!-- markdownlint-disable MD001 -->
 
 ```bash
 bun add --dev @postfmly/config
 ```
 
-### Use:
+### Use
 
 ```jsonc
 // package.json
@@ -55,15 +55,15 @@ scripts: {
 
 ---
 
-### Publishing:
+### Publishing
 
-#### Publish
+#### Publish:
 
 ```bash
 ./publish.sh
 ```
 
-#### Unpublish
+#### Unpublish:
 
 ```bash
 # current version
