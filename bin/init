@@ -2,6 +2,6 @@
 
 _dir=$(/usr/bin/git rev-parse --show-toplevel)
 
-/usr/bin/rm -rf "$_dir/.vscode"
-
-/usr/bin/ln -sf "$_dir/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+if [ ! -L "$_dir/.vscode" ]; then
+  /usr/bin/ln -sf "$_dir/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+fi
