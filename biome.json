@@ -20,6 +20,8 @@
               ":BLANK_LINE:",
               "discord.js",
               ":BLANK_LINE:",
+              "@postfmly/**",
+              ":BLANK_LINE:",
               ":PACKAGE:",
               ":BLANK_LINE:",
               ":PATH:"
