@@ -26,6 +26,20 @@
       "DOM",
       "DOM.Iterable"
     ],
+    "paths": {
+      "@biomejs/biome": [
+        "./node_modules/@biomejs/biome"
+      ],
+      "@types/bun": [
+        "./node_modules/@types/bun"
+      ],
+      "@types/node": [
+        "./node_modules/@types/node"
+      ],
+      "typescript": [
+        "./node_modules/typescript"
+      ]
+    },
     "types": [
       "bun",
       "node"
