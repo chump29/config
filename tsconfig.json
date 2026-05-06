@@ -27,6 +27,7 @@
       "DOM.Iterable"
     ],
     "types": [
+      "bun",
       "node"
     ]
   }

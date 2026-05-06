@@ -18,6 +18,13 @@ Provides configuration files for:
 bun add --dev @postfmly/config
 ```
 
+#### Peer Dependencies:
+
+- @biomejs/biome
+- @types/bun
+- @types/node
+- typescript
+
 ### Use
 
 ```jsonc
