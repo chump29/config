@@ -49,7 +49,7 @@ scripts: {
 // tsconfig.json
 
 {
-  "extends": "./node_modules/@postfmly/config/tsconfig",
+  "extends": "./node_modules/@postfmly/config/tsconfig.json",
   "compilerOptions": {
     "types": [
       "[TYPES]"
@@ -57,10 +57,6 @@ scripts: {
   }
 }
 ```
-
-- NOTE: `node` is already included in `TYPES`
-
----
 
 ### Publishing
 
