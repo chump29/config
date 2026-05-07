@@ -49,12 +49,7 @@ scripts: {
 // tsconfig.json
 
 {
-  "extends": "./node_modules/@postfmly/config/tsconfig.json",
-  "compilerOptions": {
-    "types": [
-      "[TYPES]"
-    ]
-  }
+  "extends": "./node_modules/@postfmly/config/tsconfig.json"
 }
 ```
 
