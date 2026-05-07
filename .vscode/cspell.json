@@ -63,6 +63,7 @@
     "PYTHONUNBUFFERED",
     "quotesbot",
     "randomwordbot",
+    "ratecheck",
     "redoc",
     "rxtrax",
     "shellcheck",
