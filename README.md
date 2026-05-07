@@ -52,7 +52,8 @@ scripts: {
   "extends": "./node_modules/@postfmly/config/tsconfig.json",
   "compilerOptions": {
     "types": [
-      [ADDITIONAL TYPES]
+      "bun",
+      "node"
     ]
   }
 }

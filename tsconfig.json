@@ -39,10 +39,6 @@
       "typescript": [
         "./node_modules/typescript"
       ]
-    },
-    "types": [
-      "bun",
-      "node"
-    ]
+    }
   }
 }
