@@ -243,6 +243,7 @@
         "useUniqueElementIds": "off"
       },
       "nursery": {
+        "noBaseToString": "error",
         "noComponentHookFactories": "error",
         "noConditionalExpect": "error",
         "noExcessiveNestedCallbacks": "error",
@@ -261,6 +262,8 @@
         "useMathMinMax": "error",
         "useRegexpTest": "error",
         "useStringStartsEndsWith": "error",
+        "useTestHooksInOrder": "error",
+        "useThisInClassMethods": "error",
         "useVarsOnTop": "error"
       },
       "performance": {
