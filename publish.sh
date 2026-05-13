@@ -2,10 +2,12 @@
 
 clear
 
-# ! NOTE: Using NPM because Bun does not include README.md in metadata for Verdaccio
-
 npm unpublish --force
 
-npm version --no-git-tag-version patch
+_version=$(bun --version)
+bun pm pkg set packageManager="bun@$_version"
+bun pm pkg set engines.bun="~$_version"
 
-npm publish
+bun pm version patch --no-git-tag-version
+
+bun publish

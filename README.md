@@ -39,9 +39,16 @@ scripts: {
 // biome.json
 
 {
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
   "extends": [
     "@postfmly/config/biome.json"
-  ]
+  ],
+  "files": {
+    "includes": [
+      "!!.vscode",
+      "!!tsconfig.json"
+    ]
+  }
 }
 ```
 
@@ -66,6 +73,8 @@ scripts: {
 ```bash
 ./publish.sh
 ```
+
+- *NOTE: Increments `patch` version*
 
 #### Unpublish:
 
