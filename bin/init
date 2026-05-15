@@ -2,6 +2,11 @@
 
 _dir=$(/usr/bin/git rev-parse --show-toplevel)
 
+_path=$_dir
+if [ -d "$_path/frontend" ]; then
+  _path+=/frontend
+fi
+
 if [ ! -L "$_dir/.vscode" ]; then
-  /usr/bin/ln -sf "$_dir/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+  /usr/bin/ln -sf "$_path/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
 fi

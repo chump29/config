@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "ahmadalli.vscode-nginx-conf",
+    "ambar.bundle-size",
     "bierner.markdown-mermaid",
     "biomejs.biome",
     "bradlc.vscode-tailwindcss",
