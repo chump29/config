@@ -23,6 +23,7 @@ bun add --dev @postfmly/config
 - @biomejs/biome
 - @types/bun
 - @types/node
+- globals
 - typescript
 
 ### Use
