@@ -286,7 +286,6 @@
         "noCommonJs": "error",
         "noExportedImports": "error",
         "noNamespace": "error",
-        "noNonNullAssertion": "error",
         "useArrayLiterals": "error",
         "useAsConstAssertion": "error",
         "useBlockStatements": "off",
@@ -356,6 +355,7 @@
           "style": {
             "noInferrableTypes": "off",
             "noMagicNumbers": "error",
+            "noNonNullAssertion": "error",
             "noUnusedTemplateLiteral": "error",
             "useImportType": {
               "level": "error",
