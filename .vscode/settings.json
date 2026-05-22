@@ -57,6 +57,34 @@
     "source.fixAll": "explicit",
     "source.formatDocument": "explicit"
   },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "support.type.property-name.table",
+        "settings": {
+          "foreground": "#4ec9b0"
+        }
+      },
+      {
+        "scope": "support.type.property-name.array",
+        "settings": {
+          "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "constant.other.time",
+        "settings": {
+          "foreground": "#dcdcaa"
+        }
+      },
+      {
+        "scope": "string.quoted",
+        "settings": {
+          "foreground": "#ce9178"
+        }
+      }
+    ]
+  },
   "files.associations": {
     "*.css": "tailwindcss"
   },
