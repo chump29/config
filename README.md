@@ -8,7 +8,7 @@ Provides configuration files for:
 
 - Biome
 - TypeScript
-- VSCode
+- Visual Studio Code
 
 ---
 
@@ -28,6 +28,8 @@ bun add --dev @postfmly/config
 
 ### Use
 
+#### To link Visual Studio Code configs:
+
 ```jsonc
 // package.json
 
@@ -35,6 +37,8 @@ scripts: {
   "postinstall": "config-init"
 }
 ```
+
+#### To import Biome config:
 
 ```jsonc
 // biome.json
@@ -45,6 +49,8 @@ scripts: {
   ]
 }
 ```
+
+#### To import Typescript config:
 
 ```jsonc
 // tsconfig.json
