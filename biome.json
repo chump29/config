@@ -400,7 +400,8 @@
                   "error",
                   "groupCollapsed",
                   "groupEnd",
-                  "info"
+                  "info",
+                  "table"
                 ]
               }
             }
