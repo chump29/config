@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Mount node_modules",
+      "type": "shell",
+      "command": "sudo mount --bind ~/.npm/node_modules ${workspaceFolder}/node_modules",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "close": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

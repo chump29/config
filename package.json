@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.2.29",
+  "version": "1.2.30",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -17,7 +17,7 @@
   },
   "type": "module",
   "bin": {
-    "config-init": "./bin/init"
+    "config-init": "bin/init"
   },
   "files": [
     ".vscode/",
@@ -26,7 +26,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "clean": "rimraf node_modules bun.lock",
+    "clean": "rimraf bun.lock",
     "lint": "biome check --write --verbose ."
   },
   "devDependencies": {
