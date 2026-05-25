@@ -398,6 +398,8 @@
                 "allow": [
                   "dir",
                   "error",
+                  "groupCollapsed",
+                  "groupEnd",
                   "info"
                 ]
               }
