@@ -17,8 +17,7 @@
   },
   "type": "module",
   "bin": {
-    "link-configs": "bin/link",
-    "mount-node-modules": "bin/node_modules"
+    "link-configs": "bin/link"
   },
   "files": [
     ".vscode/",

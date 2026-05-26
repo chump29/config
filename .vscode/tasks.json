@@ -2,12 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "command": "${userHome}/.npm/node_modules/mount.sh",
       "label": "node_modules",
+      "problemMatcher": [],
       "type": "shell",
-      "command": "bun run mount-node-modules",
-      "runOptions": {
-        "runOn": "folderOpen"
-      },
       "presentation": {
         "clear": true,
         "close": true,
@@ -17,7 +15,9 @@
         "revealProblems": "onProblem",
         "showReuseMessage": false
       },
-      "problemMatcher": []
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
     }
   ]
 }

@@ -1,12 +1,21 @@
 #!/usr/bin/env -S bash -e
 
 _dir=$(git rev-parse --show-toplevel)
-
-_path=$_dir
-if [ -d "$_path/frontend" ]; then
-  _path+=/frontend
+if [ -z "$_dir" ]; then
+  echo "Could not find project directory"
+  exit 1
 fi
 
 if [ ! -L "$_dir/.vscode" ]; then
-  ln -sf "$_path/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+  if [ -d "$_dir/frontend" ]; then
+    _frontend=frontend/
+  fi
+
+  echo "$_dir/${_frontend}node_modules/@postfmly/config/.vscode"
+  ln -sf "$_dir/${_frontend}node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+
+  if [ -n "$_frontend" ]; then
+    yq -i '."biome.configurationPath" = "./frontend/biome.json"' "$_dir/.vscode/settings.json"
+    yq -i '."biome.lsp.bin" = "./frontend/node_modules/@biomejs/biome/bin/biome"' "$_dir/.vscode/settings.json"
+  fi
 fi
