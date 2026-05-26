@@ -67,7 +67,7 @@ bun add --dev @postfmly/config
 
 {
   "scripts": {
-    "prepare": "link-configs"
+    "postinstall": "link-configs"
   }
 }
 ```
