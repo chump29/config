@@ -2,71 +2,20 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "CreateFrom",
+      "label": "node_modules",
       "type": "shell",
-      "command": "mkdir -p ~/.npm/node_modules",
-      "presentation": {
-        "close": true,
-        "panel": "shared",
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "showReuseMessage": false
-      }
-    },
-    {
-      "label": "CreateTo",
-      "type": "shell",
-      "command": "mkdir -p ${workspaceFolder}/node_modules",
-      "presentation": {
-        "close": true,
-        "panel": "shared",
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "showReuseMessage": false
-      }
-    },
-    {
-      "label": "Unmount",
-      "type": "shell",
-      "command": "sudo umount -q ${workspaceFolder}/node_modules || :",
-      "presentation": {
-        "close": true,
-        "panel": "shared",
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "showReuseMessage": false
-      }
-    },
-    {
-      "label": "Mount",
-      "type": "shell",
-      "command": "sudo mount --bind ~/.npm/node_modules ${workspaceFolder}/node_modules",
-      "presentation": {
-        "close": true,
-        "panel": "shared",
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "showReuseMessage": false
-      }
-    },
-    {
-      "label": "Verify",
-      "type": "shell",
-      "command": "mount | grep node_modules",
-      "presentation": {
-        "close": true,
-        "panel": "shared",
-        "reveal": "silent",
-        "revealProblems": "onProblem",
-        "showReuseMessage": false
-      }
-    },
-    {
-      "label": "Handle node_modules",
-      "dependsOrder": "sequence",
-      "dependsOn": ["CreateFrom", "CreateTo", "Unmount", "Mount", "Verify"],
+      "command": "bun run mount-node-modules",
       "runOptions": {
         "runOn": "folderOpen"
+      },
+      "presentation": {
+        "clear": true,
+        "close": true,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "showReuseMessage": false
       },
       "problemMatcher": []
     }

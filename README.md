@@ -1,10 +1,8 @@
 # @postfmly/config
 
-> - Configuration files
+### Configuration files for projects <!-- markdownlint-disable MD001 -->
 
----
-
-Provides configuration files for:
+#### Provides configuration files for:
 
 - Biome
 - TypeScript
@@ -12,7 +10,7 @@ Provides configuration files for:
 
 ---
 
-### Installation <!-- markdownlint-disable MD001 -->
+### Installation
 
 ```bash
 bun add --dev @postfmly/config
@@ -26,17 +24,9 @@ bun add --dev @postfmly/config
 - globals
 - typescript
 
+---
+
 ### Use
-
-#### To link Visual Studio Code configs:
-
-```jsonc
-// package.json
-
-scripts: {
-  "postinstall": "config-init"
-}
-```
 
 #### To import Biome config:
 
@@ -66,6 +56,32 @@ scripts: {
 }
 ```
 
+---
+
+### Bin
+
+#### To link Visual Studio Code configs:
+
+```jsonc
+// package.json
+
+{
+  "scripts": {
+    "prepare": "link-configs"
+  }
+}
+```
+
+#### To mount project-specific `node_modules` locally:
+
+```bash
+bun run mount-node-modules
+```
+
+###### *NOTE: Called from `.vscode/tasks.json`*
+
+---
+
 ### Publishing
 
 #### Publish:
@@ -74,7 +90,7 @@ scripts: {
 ./publish.sh
 ```
 
-- *NOTE: Increments `patch` version*
+###### *NOTE: Increments `patch` version*
 
 #### Unpublish:
 

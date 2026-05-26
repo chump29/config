@@ -1,6 +1,6 @@
 #!/usr/bin/env -S bash -e
 
-_dir=$(/usr/bin/git rev-parse --show-toplevel)
+_dir=$(git rev-parse --show-toplevel)
 
 _path=$_dir
 if [ -d "$_path/frontend" ]; then
@@ -8,5 +8,5 @@ if [ -d "$_path/frontend" ]; then
 fi
 
 if [ ! -L "$_dir/.vscode" ]; then
-  /usr/bin/ln -sf "$_path/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
+  ln -sf "$_path/node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
 fi
