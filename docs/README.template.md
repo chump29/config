@@ -10,9 +10,9 @@
 
 ---
 
-![Biome](https://img.shields.io/badge/Biome-^2.4.15-informational?style=plastic&logo=biome) &nbsp;
-![Bun](https://img.shields.io/badge/Bun-~1.3.14-informational?style=plastic&logo=bun) &nbsp;
-![Typescript](https://img.shields.io/badge/Typescript-^6.0.3-informational?style=plastic&logo=typescript)
+![Biome](https://img.shields.io/badge/Biome-$_biome-informational?style=plastic&logo=biome) &nbsp;
+![Bun](https://img.shields.io/badge/Bun-$_bun-informational?style=plastic&logo=bun) &nbsp;
+![Typescript](https://img.shields.io/badge/Typescript-$_typescript-informational?style=plastic&logo=typescript)
 
 ![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3)
 

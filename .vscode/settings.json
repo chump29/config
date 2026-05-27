@@ -17,6 +17,10 @@
   "python.terminal.activateEnvironment": true,
   "python.terminal.useEnvFile": true,
   "terminal.integrated.scrollback": 10000,
+  "todo-tree.filtering.excludeGlobs": ["**/.vscode/settings.json"],
+  "todo-tree.general.tags": ["TODO"],
+  "todo-tree.highlights.enabled": false,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.)).*($TAGS)",
   "[css][dockercompose][javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
