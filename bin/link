@@ -6,16 +6,15 @@ if [ -z "$_dir" ]; then
   exit 1
 fi
 
-if [ ! -L "$_dir/.vscode" ]; then
-  if [ -d "$_dir/frontend" ]; then
-    _frontend=frontend/
-  fi
+if [ -d "$_dir/frontend" ]; then
+  _frontend=frontend/
 
-  echo "$_dir/${_frontend}node_modules/@postfmly/config/.vscode"
-  ln -sf "$_dir/${_frontend}node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
-
-  if [ -n "$_frontend" ]; then
+  if [[ ! $(yq '."biome.configurationPath"' "$_dir/.vscode/settings.json") =~ "frontend" ]]; then
     yq -i '."biome.configurationPath" = "./frontend/biome.json"' "$_dir/.vscode/settings.json"
     yq -i '."biome.lsp.bin" = "./frontend/node_modules/@biomejs/biome/bin/biome"' "$_dir/.vscode/settings.json"
   fi
+fi
+
+if [ ! -L "$_dir/.vscode" ]; then
+  ln -sf "$_dir/${_frontend}node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
 fi
