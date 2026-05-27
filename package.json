@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Configuration files",
   "keywords": [
     "config"

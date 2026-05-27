@@ -40,6 +40,7 @@
     "envsubst",
     "extlen",
     "fastapi",
+    "fdir",
     "FURB",
     "getpid",
     "gitea",
