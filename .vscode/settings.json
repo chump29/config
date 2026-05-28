@@ -19,6 +19,7 @@
   "terminal.integrated.scrollback": 10000,
   "todo-tree.highlights.enabled": false,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.)).*($TAGS)",
+  "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
   "[css][dockercompose][javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
   },

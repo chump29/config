@@ -10,7 +10,7 @@
 
 ---
 
-![Biome](https://img.shields.io/badge/Biome-^2.4.15-informational?style=plastic&logo=biome) &nbsp;
+![Biome](https://img.shields.io/badge/Biome-^2.4.16-informational?style=plastic&logo=biome) &nbsp;
 ![Bun](https://img.shields.io/badge/Bun-~1.3.14-informational?style=plastic&logo=bun) &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-^6.0.3-informational?style=plastic&logo=typescript)
 
@@ -83,10 +83,8 @@ bun add --dev @postfmly/config
 #### To mount project-specific `node_modules` locally:
 
 ```bash
-bun run mount-node-modules
+bun run mount
 ```
-
-###### *NOTE: Called from `.vscode/tasks.json`*
 
 ---
 
@@ -98,7 +96,7 @@ bun run lint
 
 ---
 
-### Documentation
+### README
 
 ```bash
 ./docs.sh
@@ -114,7 +112,11 @@ bun run lint
 ./publish.sh
 ```
 
-###### *NOTE: Increments `patch` version in `package.json`*
+###### *NOTES:*
+
+- ###### *Increments `patch` version in `package.json`*
+
+- ###### *Includes linting and building README*
 
 #### Unpublish:
 

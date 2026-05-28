@@ -83,10 +83,8 @@ bun add --dev @postfmly/config
 #### To mount project-specific `node_modules` locally:
 
 ```bash
-bun run mount-node-modules
+bun run mount
 ```
-
-###### *NOTE: Called from `.vscode/tasks.json`*
 
 ---
 
@@ -98,7 +96,7 @@ bun run lint
 
 ---
 
-### Documentation
+### README
 
 ```bash
 ./docs.sh
@@ -114,7 +112,11 @@ bun run lint
 ./publish.sh
 ```
 
-###### *NOTE: Increments `patch` version in `package.json`*
+###### *NOTES:*
+
+- ###### *Increments `patch` version in `package.json`*
+
+- ###### *Includes linting and building README*
 
 #### Unpublish:
 
