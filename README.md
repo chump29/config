@@ -80,7 +80,7 @@ bun add --dev @postfmly/config
 }
 ```
 
-#### To mount project-specific `node_modules` locally:
+#### To mount or verify project-specific `node_modules` locally:
 
 ```bash
 bun run mount

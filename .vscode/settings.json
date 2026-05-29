@@ -11,6 +11,7 @@
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
+  "python.analysis.autoSearchPaths": false,
   "python.analysis.typeCheckingMode": "standard",
   "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
   "python.envFile": "${workspaceFolder}/backend/.env",
@@ -119,6 +120,9 @@
       ]
     }
   },
+  "python.analysis.include": [
+    "backend/**/*.py"
+  ],
   "shellcheck.customArgs": [
     "-x"
   ],
