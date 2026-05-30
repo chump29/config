@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -27,8 +27,13 @@
   ],
   "scripts": {
     "clean": "rm bun.lock",
-    "lint": "biome check --write --verbose .",
+    "lint": "bun audit && bun run lint:biome && bun run lint:spell",
+    "lint:biome": "biome check --write --verbose .",
+    "lint:spell": "cspell --dot .",
     "mount": "~/.npm/node_modules/mount.sh"
+  },
+  "devDependencies": {
+    "cspell": "^10.0.0"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2.4.16",
