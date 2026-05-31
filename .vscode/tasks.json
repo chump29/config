@@ -1,23 +1,23 @@
 {
-	  "version": "2.0.0",
-	  "tasks": [
-	    {
-	      "command": "${userHome}/.npm/node_modules/mount.sh",
-	      "label": "node_modules",
-	      "problemMatcher": [],
-	      "type": "shell",
-	      "presentation": {
-	        "clear": true,
-	        "close": true,
-	        "focus": false,
-	        "panel": "shared",
-	        "reveal": "silent",
-	        "revealProblems": "onProblem",
-	        "showReuseMessage": false
-	      },
-	      "runOptions": {
-	        "runOn": "folderOpen"
-	      }
-	    }
-	  ]
-	}
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "command": "${userHome}/.npm/node_modules/mount.sh",
+      "label": "node_modules",
+      "problemMatcher": [],
+      "type": "shell",
+      "presentation": {
+        "clear": true,
+        "close": true,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "showReuseMessage": false
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}

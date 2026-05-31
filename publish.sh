@@ -11,8 +11,6 @@ bun pm pkg set packageManager="bun@$_version" engines.bun="~$_version" > /dev/nu
 
 bun pm version patch --no-git-tag-version
 
-npm unpublish --force
+npm unpublish --force || :
 
-# ! NOTE: Using npm because Bun doesn't package correct files
-#bun publish
 npm publish
