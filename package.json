@@ -32,7 +32,6 @@
     "lint:spell": "cspell --dot --verbose ."
   },
   "devDependencies": {
-    "bun-scan": "^1.1.2",
     "cspell": "^10.0.1"
   },
   "peerDependencies": {
