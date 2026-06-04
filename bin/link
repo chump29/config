@@ -1,8 +1,19 @@
 #!/usr/bin/env -S bash -e
 
 _dir=$(git rev-parse --show-toplevel)
+
+if [[ "$_dir" =~ /config$ ]]; then
+  echo "Not updating own project"
+  exit 0
+fi
+
 if [ -z "$_dir" ]; then
   echo "Could not find project directory"
+  exit 1
+fi
+
+if ! command -v yq > /dev/null; then
+  echo "yq not found"
   exit 1
 fi
 
