@@ -34,6 +34,16 @@ bun add --dev @postfmly/config
 
 ---
 
+### Link
+
+#### To link Visual Studio Code configs to project:
+
+```bash
+bun run link-configs
+```
+
+---
+
 ### Use
 
 #### To import Biome config:
@@ -62,28 +72,6 @@ bun add --dev @postfmly/config
     ]
   }
 }
-```
-
----
-
-### Bin
-
-#### To link Visual Studio Code configs:
-
-```jsonc
-// package.json
-
-{
-  "scripts": {
-    "postinstall": "link-configs"
-  }
-}
-```
-
-#### To mount or verify project-specific `node_modules` locally:
-
-```bash
-bun run mount
 ```
 
 ---
