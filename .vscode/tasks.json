@@ -2,8 +2,8 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "command": "${userHome}/.npm/node_modules/mount.sh",
-      "label": "node_modules",
+      "command": "${userHome}/.npm/node_modules/mount.sh && ${userHome}/.venv/mount.sh",
+      "label": "mounts",
       "problemMatcher": [],
       "type": "shell",
       "presentation": {

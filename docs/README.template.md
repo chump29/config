@@ -44,6 +44,18 @@ bun run link-configs
 
 ---
 
+### Task
+
+#### Runs on `folderOpen`
+
+###### *NOTES:*
+
+- ###### *Mounts `node_modules` for frontend*
+
+- ###### *Mounts `.venv` for backend*
+
+---
+
 ### Use
 
 #### To import Biome config:
