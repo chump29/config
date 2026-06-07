@@ -130,7 +130,8 @@
     "-x"
   ],
   "todo-tree.filtering.excludeGlobs": [
-    "**/.vscode/settings.json"
+    "**/.vscode/settings.json",
+    "**/TODO.md"
   ],
   "todo-tree.general.tags": [
     "TODO"
