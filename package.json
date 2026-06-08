@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -17,7 +17,7 @@
   },
   "type": "module",
   "bin": {
-    "link-configs": "bin/link"
+    "link-configs": "bin/link-configs"
   },
   "files": [
     ".vscode/",

@@ -12,17 +12,19 @@ if [ -z "$_dir" ]; then
   exit 1
 fi
 
+if [ -d "$_dir/frontend" ]; then
+  _frontend=frontend/
+fi
+
 if [ ! -L "$_dir/.vscode" ]; then
   ln -sf "$_dir/${_frontend}node_modules/@postfmly/config/.vscode" "$_dir/.vscode"
 fi
 
-if ! command -v yq > /dev/null; then
-  echo "yq not found"
-  exit 1
-fi
-
-if [ -d "$_dir/frontend" ]; then
-  _frontend=frontend/
+if [ -n "$_frontend" ]; then
+  if ! command -v yq > /dev/null; then
+    echo "yq not found"
+    exit 1
+  fi
 
   if [[ ! $(yq '."biome.configurationPath"' "$_dir/.vscode/settings.json") =~ "frontend" ]]; then
     yq -i '."biome.configurationPath" = "./frontend/biome.json"' "$_dir/.vscode/settings.json"
