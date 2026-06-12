@@ -97,6 +97,7 @@
       },
       "correctness": {
         "noNodejsModules": "off",
+        "noSolidDestructuredProps": "off",
         "noUndeclaredDependencies": "off",
         "noUndeclaredVariables": "error",
         "noUnresolvedImports": "off",
@@ -146,7 +147,9 @@
       "style": {
         "noCommonJs": "error",
         "noDefaultExport": "off",
+        "noExcessiveLinesPerFile": "off",
         "noExportedImports": "error",
+        "noIncrementDecrement": "off",
         "noInferrableTypes": "off",
         "noJsxLiterals": "off",
         "noMagicNumbers": "error",

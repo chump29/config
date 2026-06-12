@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -28,9 +28,9 @@
   "scripts": {
     "clean": "rm bun.lock",
     "lint": "bun run scan && bun run lint:spell && bun run lint:biome",
-    "lint:biome": "biome check --write --verbose .",
-    "lint:spell": "cspell --dot --verbose .",
-    "scan": "bunx cve-lite-cli"
+    "lint:biome": "bun run --bun biome check --write --verbose .",
+    "lint:spell": "bun run --bun cspell --dot --verbose .",
+    "scan": "bunx --bun cve-lite-cli"
   },
   "devDependencies": {
     "cspell": "^10.0.1"
