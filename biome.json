@@ -187,7 +187,6 @@
         "noForIn": "error",
         "noLeakedRender": "error",
         "noNestedPromises": "error",
-        "noShadow": "off",
         "noUnknownAttribute": "error",
         "noUnnecessaryConditions": "error",
         "useArraySortCompare": "error",
