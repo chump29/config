@@ -18,6 +18,7 @@
     "ms-python.isort",
     "ms-python.pylint",
     "redhat.vscode-yaml",
+    "ryanluker.vscode-coverage-gutters",
     "sashabusinaro.yaml-compose-sorter",
     "streetsidesoftware.code-spell-checker",
     "tamasfe.even-better-toml",

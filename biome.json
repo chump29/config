@@ -187,6 +187,7 @@
         "noForIn": "error",
         "noLeakedRender": "error",
         "noNestedPromises": "error",
+        "noReactSpecificProps": "off",
         "noUnknownAttribute": "error",
         "noUnnecessaryConditions": "error",
         "useArraySortCompare": "error",
