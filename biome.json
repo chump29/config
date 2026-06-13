@@ -149,6 +149,7 @@
         "noDefaultExport": "off",
         "noExcessiveLinesPerFile": "off",
         "noExportedImports": "error",
+        "noImplicitBoolean": "off",
         "noIncrementDecrement": "off",
         "noInferrableTypes": "off",
         "noJsxLiterals": "off",
