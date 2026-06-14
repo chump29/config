@@ -28,7 +28,7 @@
   "scripts": {
     "clean": "rm bun.lock",
     "lint": "bun run scan && bun run lint:spell && bun run lint:biome",
-    "lint:biome": "bun run --bun biome check --write --verbose .",
+    "lint:biome": "bun run --bun biome check --write --verbose --error-on-warnings",
     "lint:spell": "bun run --bun cspell --dot --verbose .",
     "scan": "bunx --bun cve-lite-cli"
   },
