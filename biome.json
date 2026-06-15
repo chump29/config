@@ -139,6 +139,7 @@
         "noNamespaceImport": "error",
         "noReExportAll": "error",
         "noSyncScripts": "error",
+        "useSolidForComponent": "off",
         "useTopLevelRegex": "error"
       },
       "security": {
