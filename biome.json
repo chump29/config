@@ -157,6 +157,7 @@
         "noMagicNumbers": "error",
         "noMultilineString": "error",
         "noNamespace": "error",
+        "noProcessEnv": "off",
         "noTernary": "off",
         "noUnusedTemplateLiteral": "error",
         "useAsConstAssertion": "error",
