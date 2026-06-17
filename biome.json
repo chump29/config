@@ -93,7 +93,8 @@
         "noRedundantDefaultExport": "error",
         "noUselessCatch": "error",
         "noUselessReturn": "error",
-        "useArrayFind": "error"
+        "useArrayFind": "error",
+        "useLiteralKeys": "off"
       },
       "correctness": {
         "noNodejsModules": "off",
