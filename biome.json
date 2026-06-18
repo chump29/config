@@ -165,7 +165,7 @@
         "useConsistentEnumValueType": "error",
         "useConsistentMethodSignatures": "error",
         "useDestructuring": "error",
-        "useErrorCause": "error",
+        "useErrorCause": "off",
         "useFilenamingConvention": "off",
         "useGlobalThis": "error",
         "useNamingConvention": "off",
