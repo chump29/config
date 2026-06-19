@@ -86,6 +86,7 @@
     "rules": {
       "preset": "all",
       "complexity": {
+        "noBannedTypes": "off",
         "noDivRegex": "error",
         "noExcessiveCognitiveComplexity": "off",
         "noExcessiveLinesPerFunction": "off",
