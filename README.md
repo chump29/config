@@ -5,12 +5,13 @@
 #### Provides configuration files for:
 
 - Biome
-- TypeScript
+- TSGo/TypeScript
 - Visual Studio Code
 
 ---
 
 ![Bun](https://img.shields.io/badge/Bun-~1.3.14-informational?style=plastic&logo=bun "Bun") &nbsp;
+![TSGo](https://img.shields.io/badge/TSGo-7.0.0--dev.20260621.1-informational?style=plastic&logo=typescript "TSGo") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-^6.0.3-informational?style=plastic&logo=typescript "Typescript")
 
 ![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3 "GPLv3")
@@ -23,13 +24,22 @@
 bun add --dev @postfmly/config
 ```
 
-#### Peer Dependencies:
+#### Peer Dependencies<sup>1</sup>:
 
 - @biomejs/biome
 - @types/bun
 - @types/node
+- @typescript/native-preview<sup>2,3,4</sup> *(TSGo)*
 - globals
-- typescript
+- typescript<sup>4</sup>
+
+###### <sup>1</sup> [Automatically](https://bun.com/docs/pm/cli/install#peer-dependencies "Bun documentation") installed by Bun
+
+###### <sup>2</sup> Experimental
+
+###### <sup>3</sup> Use with Visual Studio Code [TypeScript (Native Preview)](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.native-preview "TypeScript (Native Preview)") extension
+
+###### <sup>4</sup> Both installed for backwards compatibility
 
 ---
 
@@ -69,7 +79,7 @@ bun run link-configs
 }
 ```
 
-#### To import Typescript config:
+#### To import TSGo/Typescript config:
 
 ```jsonc
 // tsconfig.json
