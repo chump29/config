@@ -136,7 +136,7 @@
       "performance": {
         "noAwaitInLoops": "error",
         "noBarrelFile": "error",
-        "noDelete": "error",
+        "noDelete": "off",
         "noJsxPropsBind": "error",
         "noNamespaceImport": "error",
         "noReExportAll": "error",
