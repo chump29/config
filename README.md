@@ -12,7 +12,7 @@
 
 ![Biome](https://img.shields.io/badge/Biome-^2.5.1-informational?style=plastic&logo=biome "Biome") &nbsp;
 ![Bun](https://img.shields.io/badge/Bun-~1.3.14-informational?style=plastic&logo=bun "Bun") &nbsp;
-![TSGo](https://img.shields.io/badge/TSGo-7.0.0--dev.20260623.1-informational?style=plastic&logo=typescript "TSGo") &nbsp;
+![TSGo](https://img.shields.io/badge/TSGo-7.0.0--dev.20260624.1-informational?style=plastic&logo=typescript "TSGo") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-^6.0.3-informational?style=plastic&logo=typescript "Typescript")
 
 ![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3 "GPLv3")
