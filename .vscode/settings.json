@@ -2,6 +2,7 @@
   "biome.configurationPath": "./biome.json",
   "biome.lsp.bin": "./node_modules/@biomejs/biome/bin/biome",
   "biome.suggestInstallingGlobally": false,
+  "cSpell.blockCheckingWhenTextChunkSizeGreaterThan": 3000,
   "css.lint.unknownAtRules": "ignore",
   "editor.detectIndentation": true,
   "editor.formatOnPaste": true,
