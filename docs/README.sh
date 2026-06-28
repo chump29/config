@@ -12,6 +12,10 @@ _bun=~$_bun
 export _bun
 echo -e " • Bun: $_bun"
 
+_cspell=$(jq -r '.peerDependencies.cspell // "❓"' ../package.json)
+export _cspell
+echo -e " • cspell: $_cspell"
+
 _tsgo=$(bun info @typescript/native-preview version)
 _tsgo=${_tsgo/-/--}
 export _tsgo

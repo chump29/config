@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.20",
+  "version": "1.4.21",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -32,15 +32,13 @@
     "lint:spell": "bun run --bun cspell --dot --verbose .",
     "scan": "bunx --bun cve-lite-cli"
   },
-  "devDependencies": {
-    "cspell": "^10.0.1"
-  },
   "peerDependencies": {
     "@biomejs/biome": "^2.5.1",
     "@types/bun": "^1.3.14",
     "@types/node": "^26.0.1",
     "@typescript/native-preview": "latest",
     "globals": "^17.7.0",
+    "cspell": "^10.0.1",
     "typescript": "^6.0.3"
   },
   "packageManager": "bun@1.3.14",
