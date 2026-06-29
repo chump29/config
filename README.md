@@ -15,7 +15,8 @@
 ![Biome](https://img.shields.io/badge/Biome-^2.5.1-informational?style=plastic&logo=biome "Biome") &nbsp;
 ![Bun](https://img.shields.io/badge/Bun-~1.3.14-informational?style=plastic&logo=bun "Bun") &nbsp;
 ![CSpell](https://img.shields.io/badge/CSpell-^10.0.1-informational?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACfklEQVR4nOzVMUpjURxH4ZuZdFNkapvEvSSLEFyGRRBcll22kMJdiE1qQYltykfg+FC+r/4Xv+Jc7vJ8Po+fabfbHQ6HicdP+7F/iAdx4c/cA/idhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFYrHdbufecKXj8Xg6nSYe367HZhMPAmq+QhLCIiEsEsIiISwSwiIhLBLCIiEsEsIiISwSy/XfuSdc6/VzvE8+Xi3Gf4/oGy2eb+aecK3Ht/HyMfX4/t+4W7V7uOQVkxAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBaJrwAAAP//lQwX4xbXkzUAAAAASUVORK5CYII= "CSpell") &nbsp; <!-- markdownlint-disable MD013 -->
-![TSGo](https://img.shields.io/badge/TSGo-7.0.0--dev.20260628.1-informational?style=plastic&logo=typescript "TSGo") &nbsp;
+![CVE Lite](https://img.shields.io/badge/CVE%20Lite-^1.25.0-informational?style=plastic&logo=owasp "CVE Lite") &nbsp;
+![TSGo](https://img.shields.io/badge/TSGo-7.0.0--dev.20260629.1-informational?style=plastic&logo=typescript "TSGo") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-^6.0.3-informational?style=plastic&logo=typescript "Typescript")
 
 ![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3 "GPLv3")
@@ -36,6 +37,7 @@ bun add --dev @postfmly/config
 - @types/node
 - @typescript/native-preview<sup>2,3,4</sup> *(TSGo)*
 - cspell
+- cve-lite-cli
 - globals
 - typescript<sup>4</sup>
 
@@ -97,6 +99,18 @@ bun run link-configs
       "bun",
       "node" // if using any node: package
     ]
+  }
+}
+```
+
+#### To run CVE Lite scanner:
+
+```jsonc
+// package.json
+
+{
+  "scripts": {
+    "scan": "bun run --bun cve-lite"
   }
 }
 ```

@@ -16,6 +16,10 @@ _cspell=$(jq -r '.peerDependencies.cspell // "❓"' ../package.json)
 export _cspell
 echo -e " • cspell: $_cspell"
 
+_cve=$(jq -r '.peerDependencies."cve-lite-cli" // "❓"' ../package.json)
+export _cve
+echo -e " • cve-lite-cli: $_cve"
+
 _tsgo=$(bun info @typescript/native-preview version)
 _tsgo=${_tsgo/-/--}
 export _tsgo
