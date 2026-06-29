@@ -19,7 +19,8 @@
 ![TSGo](https://img.shields.io/badge/TSGo-$_tsgo-informational?style=plastic&logo=typescript "TSGo") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-$_typescript-informational?style=plastic&logo=typescript "Typescript")
 
-![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3 "GPLv3")
+![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=License&logo=gplv3 "GPLv3") &nbsp;
+![CVE Scan](https://img.shields.io/badge/CVE%20Scan-Pass-success?style=plastic&logo=owasp "CVE Scan")
 <!-- cspell:enable -->
 
 ---
