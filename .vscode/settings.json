@@ -62,11 +62,13 @@
   "better-comments.tags": [
     {
       "background": "transparent",
+      "bold": true,
       "color": "#a6192e",
       "tag": "!"
     },
     {
       "background": "transparent",
+      "bold": true,
       "color": "#0057b8",
       "tag": "?"
     },
@@ -77,11 +79,13 @@
     },
     {
       "background": "transparent",
+      "bold": true,
       "color": "#ff9900",
       "tag": "todo"
     },
     {
       "background": "transparent",
+      "bold": true,
       "color": "#04b34f",
       "tag": "*"
     }
