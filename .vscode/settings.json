@@ -59,8 +59,41 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
+  "better-comments.tags": [
+    {
+      "background": "transparent",
+      "color": "#a6192e",
+      "tag": "!"
+    },
+    {
+      "background": "transparent",
+      "color": "#0057b8",
+      "tag": "?"
+    },
+    {
+      "background": "transparent",
+      "color": "#474747",
+      "tag": "//"
+    },
+    {
+      "background": "transparent",
+      "color": "#ff9900",
+      "tag": "todo"
+    },
+    {
+      "background": "transparent",
+      "color": "#04b34f",
+      "tag": "*"
+    }
+  ],
   "black-formatter.args": [
     "--line-length=120"
+  ],
+  "coverage-gutters.coverageFileNames": [
+    "lcov.info"
+  ],
+  "cSpell.import": [
+    "${workspaceFolder}/.vscode/cspell.json"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
