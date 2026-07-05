@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.27",
+  "version": "1.4.28",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -33,14 +33,14 @@
     "scan": "bun run --bun cve-lite"
   },
   "peerDependencies": {
-    "@biomejs/biome": "latest",
-    "@types/bun": "latest",
-    "@types/node": "latest",
-    "@typescript/native-preview": "latest",
-    "cspell": "latest",
-    "cve-lite-cli": "latest",
-    "globals": "latest",
-    "typescript": "latest"
+    "@biomejs/biome": "^2.5.2",
+    "@types/bun": "^1.3.14",
+    "@types/node": "^26.1.0",
+    "@typescript/native-preview": "^7.0.0-dev.20260705.1",
+    "cspell": "^10.0.1",
+    "cve-lite-cli": "^1.26.0",
+    "globals": "^17.7.0",
+    "typescript": "^6.0.3"
   },
   "packageManager": "bun@1.3.14",
   "engines": {

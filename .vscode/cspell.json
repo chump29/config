@@ -91,6 +91,7 @@
     "rcfile",
     "redoc",
     "registrator",
+    "rimraf",
     "rxtrax",
     "shellcheck",
     "smober",
