@@ -20,12 +20,6 @@ _cve=$(jq -r '.peerDependencies."cve-lite-cli" // "❓"' ../package.json)
 export _cve
 echo -e " • cve-lite-cli: $_cve"
 
-_tsgo=$(bun info @typescript/native-preview version)
-_tsgo=^$_tsgo
-_tsgo=${_tsgo/-/--}
-export _tsgo
-echo -e " • @typescript/native-preview: ${_tsgo/--/-}"
-
 _typescript=$(jq -r '.peerDependencies.typescript // "❓"' ../package.json)
 export _typescript
 echo -e " • typescript: $_typescript"
