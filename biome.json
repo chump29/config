@@ -189,7 +189,6 @@
         "noDuplicatedSpreadProps": "error",
         "noEmptyBlockStatements": "error",
         "noEqualsToNull": "error",
-        "noExportsInTest": "off",
         "noForIn": "error",
         "noLeakedRender": "error",
         "noNestedPromises": "error",
