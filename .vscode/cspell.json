@@ -82,6 +82,7 @@
     "PUID",
     "pycache",
     "pydantic",
+    "pydecimal",
     "pylint",
     "pyproject",
     "PYTHONDONTWRITEBYTECODE",
