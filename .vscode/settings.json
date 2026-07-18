@@ -14,7 +14,10 @@
   "js/ts.experimental.useTsgo": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
   "python.analysis.autoSearchPaths": false,
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.indexing": false,
   "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.useLibraryCodeForTypes": false,
   "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
   "python.envFile": "${workspaceFolder}/backend/.env",
   "python.terminal.activateEnvironment": true,
@@ -137,7 +140,10 @@
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true
+    "**/.ruff_cache/**": true,
+    "**/.venv/**": true,
+    "**/dist/**": true,
+    "**/node_modules/**": true
   },
   "isort.args": [
     "--profile",
