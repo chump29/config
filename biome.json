@@ -116,6 +116,7 @@
         "noImpliedEval": "error",
         "noJsxNamespace": "error",
         "noLoopFunc": "error",
+        "noNegationInEqualityCheck": "error",
         "noUndeclaredClasses": "error",
         "noUnnecessaryTemplateExpression": "error",
         "useDomNodeTextContent": "error",

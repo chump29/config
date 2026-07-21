@@ -53,6 +53,7 @@
     "getpid",
     "gitea",
     "healthcheck",
+    "htmlq",
     "htmlvalidate",
     "importmap",
     "ingverb",
