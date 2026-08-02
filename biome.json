@@ -138,6 +138,7 @@
         "noAwaitInLoops": "error",
         "noBarrelFile": "error",
         "noDelete": "off",
+        "noJsxPropsBind": "off",
         "noNamespaceImport": "error",
         "noReExportAll": "error",
         "noSyncScripts": "error",
