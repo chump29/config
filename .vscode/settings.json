@@ -13,6 +13,7 @@
   "git.autofetch": true,
   "js/ts.experimental.useTsgo": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
+  "pylint.importStrategy": "fromEnvironment",
   "python.analysis.autoSearchPaths": false,
   "python.analysis.diagnosticMode": "openFilesOnly",
   "python.analysis.indexing": false,
@@ -168,6 +169,9 @@
       ]
     }
   },
+  "pylint.args": [
+    "--max-line-length=120"
+  ],
   "python.analysis.include": [
     "backend/**/*.py"
   ],
