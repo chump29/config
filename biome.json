@@ -127,6 +127,7 @@
         "useImportsFirst": "error",
         "useIncludes": "error",
         "useMathMinMax": "error",
+        "useNullishCoalescing": "error",
         "useReduceTypeParameter": "error",
         "useRegexpTest": "error",
         "useStringStartsEndsWith": "error",
