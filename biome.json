@@ -15,9 +15,11 @@
             "groups": [
               ":NODE:",
               ":BLANK_LINE:",
+              ":BUN:",
+              ":BLANK_LINE:",
               "react",
               ":BLANK_LINE:",
-              ":BUN:",
+              "@mantine/**",
               ":BLANK_LINE:",
               "discord.js",
               ":BLANK_LINE:",

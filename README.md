@@ -60,18 +60,6 @@ bun run link-configs
 
 ---
 
-### Task
-
-#### Runs on `folderOpen`
-
-###### *NOTES:* <!-- markdownlint-disable MD024 -->
-
-- ###### *Mounts `node_modules` for frontend*
-
-- ###### *Mounts `.venv` for backend*
-
----
-
 ### Use
 
 #### To import Biome config:
@@ -86,7 +74,7 @@ bun run link-configs
 }
 ```
 
-#### To import TSGo/Typescript config:
+#### To import Typescript config:
 
 ```jsonc
 // tsconfig.json
