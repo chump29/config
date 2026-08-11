@@ -63,19 +63,16 @@
     ]
   },
   "formatter": {
-    "expand": "always",
     "indentStyle": "space",
     "lineWidth": 120
   },
   "javascript": {
+    "globals": ["Bun"],
     "formatter": {
       "bracketSameLine": true,
       "semicolons": "asNeeded",
       "trailingCommas": "none"
-    },
-    "globals": [
-      "Bun"
-    ]
+    }
   },
   "linter": {
     "domains": {
@@ -130,6 +127,7 @@
         "useIncludes": "error",
         "useMathMinMax": "error",
         "useNullishCoalescing": "error",
+        "useReactCompiler": "error",
         "useReduceTypeParameter": "error",
         "useRegexpTest": "error",
         "useStringStartsEndsWith": "error",
@@ -203,14 +201,7 @@
         "noConsole": {
           "level": "error",
           "options": {
-            "allow": [
-              "dir",
-              "error",
-              "groupCollapsed",
-              "groupEnd",
-              "info",
-              "table"
-            ]
+            "allow": ["dir", "error", "groupCollapsed", "groupEnd", "info", "table"]
           }
         }
       }

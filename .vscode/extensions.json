@@ -21,6 +21,7 @@
     "ms-python.isort",
     "ms-python.pylint",
     "redhat.vscode-yaml",
+    "rodolphebarbanneau.python-docstring-highlighter",
     "ryanluker.vscode-coverage-gutters",
     "sashabusinaro.yaml-compose-sorter",
     "streetsidesoftware.code-spell-checker",
