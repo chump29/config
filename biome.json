@@ -89,6 +89,7 @@
         "noDivRegex": "error",
         "noExcessiveCognitiveComplexity": "off",
         "noExcessiveLinesPerFunction": "off",
+        "noExtraBooleanCast": "error",
         "noImplicitCoercions": "error",
         "noRedundantDefaultExport": "error",
         "noUselessCatch": "error",
@@ -131,6 +132,7 @@
         "useReduceTypeParameter": "error",
         "useRegexpTest": "error",
         "useStringStartsEndsWith": "error",
+        "useTailwindShorthandClasses": "error",
         "useTestHooksInOrder": "error",
         "useThisInClassMethods": "error",
         "useVarsOnTop": "error"
