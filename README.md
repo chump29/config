@@ -6,8 +6,11 @@
 
 - Biome
 - CSpell
-- TSGo/TypeScript
+- Markdownlint
+- TypeScript
 - Visual Studio Code
+  - Extensions
+  - Settings
 
 ---
 
@@ -40,7 +43,7 @@ bun add --dev @postfmly/config
 - globals
 - typescript
 
-###### <sup>1</sup> [Automatically](https://bun.com/docs/pm/cli/install#peer-dependencies "Bun documentation") installed by Bun
+###### <sup>1</sup> [Automatically](https://bun.com/docs/pm/cli/install#peer-dependencies "Bun documentation") installed via Bun
 
 ---
 
@@ -84,7 +87,7 @@ bun run link-configs
   "compilerOptions": {
     "types": [
       "bun",
-      "node" // if using any node: package
+      "node" // if using any node: package(s)
     ]
   }
 }
@@ -97,7 +100,7 @@ bun run link-configs
 
 {
   "scripts": {
-    "scan": "bun run --bun cve-lite"
+    "scan": "bun audit && bun run --bun cve-lite --check-overrides"
   }
 }
 ```

@@ -13,6 +13,7 @@
   "git.autofetch": true,
   "js/ts.experimental.useTsgo": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
+  "markdownlint.configFile": "${workspaceFolder}/.vscode/.markdownlint.json",
   "pylint.importStrategy": "fromEnvironment",
   "python.analysis.autoSearchPaths": false,
   "python.analysis.diagnosticMode": "openFilesOnly",
@@ -154,20 +155,6 @@
     "https://biomejs.dev/schemas/latest/": true,
     "https://html-validate.org/schemas/": true,
     "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
-  },
-  "markdownlint.config": {
-    "MD013": {
-      "line_length": 120
-    },
-    "MD026": {
-      "punctuation": ".,;!"
-    },
-    "MD033": {
-      "allowed_elements": [
-        "img",
-        "sup"
-      ]
-    }
   },
   "pylint.args": [
     "--max-line-length=120"
