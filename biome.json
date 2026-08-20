@@ -194,6 +194,7 @@
         "noEmptyBlockStatements": "error",
         "noEqualsToNull": "error",
         "noForIn": "error",
+        "noGlobalIsNan": "error",
         "noLeakedRender": "error",
         "noNestedPromises": "error",
         "noReactSpecificProps": "off",
