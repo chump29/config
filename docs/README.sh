@@ -1,5 +1,8 @@
 #!/usr/bin/env -S bash -e
 
+export _user=chump29
+export _repo=config
+
 echo -e "📌 Packages:\n"
 
 _biome=$(jq -r '.peerDependencies."@biomejs/biome" // "❓"' ../package.json)

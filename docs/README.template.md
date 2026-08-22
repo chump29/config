@@ -21,7 +21,10 @@
 ![CVE Lite](https://img.shields.io/badge/CVE%20Lite-$_cve-informational?style=plastic&logo=owasp "CVE Lite") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-$_typescript-informational?style=plastic&logo=typescript "Typescript")
 
-![License](https://img.shields.io/github/license/chump29/config?style=plastic&color=blueviolet&label=%20License&logo=gplv3 "GPLv3") &nbsp;
+![CodeQL](https://github.com/$_user/$_repo/workflows/CodeQL/badge.svg "CodeQL")
+
+![NO AI](https://img.shields.io/badge/NO-AI-orange?style=plastic "NO AI") &nbsp;
+![License](https://img.shields.io/github/license/$_user/$_repo?style=plastic&color=blueviolet&label=%20License&logo=gplv3 "GPLv3") &nbsp;
 ![CVE Scan](https://img.shields.io/badge/CVE%20Scan-Pass-success?style=plastic&logo=owasp "CVE Scan")
 <!-- cspell:enable -->
 
