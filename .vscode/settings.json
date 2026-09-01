@@ -52,6 +52,9 @@
   "[nginx]": {
     "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
   },
+   "[perl]": {
+    "editor.defaultFormatter": "bscan.perlnavigator"
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.codeActionsOnSave": {
