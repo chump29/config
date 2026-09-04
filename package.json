@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.57",
+  "version": "1.4.58",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -36,14 +36,14 @@
     "@biomejs/biome": "^2.5.12",
     "@types/bun": "^1.4.0",
     "@types/node": "^26.4.1",
-    "cspell": "^10.2.0",
+    "cspell": "^10.2.2",
     "cve-lite-cli": "^1.33.0",
     "globals": "^17.12.0",
     "typescript": "^7.0.2"
   },
-  "packageManager": "bun@1.4.0",
+  "packageManager": "bun@1.4.1",
   "engines": {
-    "bun": "^1.4.0"
+    "bun": "^1.4.1"
   },
   "engineStrict": true
 }
