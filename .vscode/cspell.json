@@ -50,6 +50,7 @@
     "extlen",
     "fastapi",
     "fdir",
+    "flamegraph",
     "FURB",
     "getpid",
     "gitea",
