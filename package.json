@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.61",
+  "version": "1.4.62",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -46,9 +46,9 @@
     "globals": "^17.12.0",
     "typescript": "^7.0.2"
   },
-  "packageManager": "bun@1.4.1",
+  "packageManager": "bun@1.4.2",
   "engines": {
-    "bun": "^1.4.1"
+    "bun": "~1.4.2"
   },
   "engineStrict": true
 }

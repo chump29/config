@@ -9,7 +9,7 @@ _biome=$(jq -r '.peerDependencies."@biomejs/biome" // "❓"' ../package.json)
 export _biome
 echo -e " • @biomejs/biome: $_biome"
 
-_bun=$(jq -r '.engines.bun // "❓"' ../package.json)
+_bun=$(bun -v)
 export _bun
 echo -e " • Bun: $_bun"
 
