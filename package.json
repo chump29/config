@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.59",
+  "version": "1.4.60",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -30,7 +30,12 @@
     "lint:biome": "bun run --bun biome check --write --verbose --error-on-warnings",
     "lint:spell": "bun run --bun cspell --dot --verbose .",
     "scan": "bun audit && bun run --bun cve-lite",
+    "scan:e18e": "bunx --bun @e18e/cli analyze",
     "updates": "bunx --bun npm-check-updates --dep peer --cooldown 0 --install never --packageManager bun --peer"
+  },
+  "overrides": {
+    "chalk": "6.0.0",
+    "ini": "7.0.0"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2.5.12",

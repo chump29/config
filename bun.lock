@@ -15,6 +15,10 @@
       },
     },
   },
+  "overrides": {
+    "chalk": "6.0.0",
+    "ini": "7.0.0",
+  },
   "packages": {
     "@biomejs/biome": ["@biomejs/biome@2.5.12", "https://npm.postfmly.com/@biomejs/biome/-/biome-2.5.12.tgz", { "optionalDependencies": { "@biomejs/cli-darwin-arm64": "2.5.12", "@biomejs/cli-darwin-x64": "2.5.12", "@biomejs/cli-linux-arm64": "2.5.12", "@biomejs/cli-linux-arm64-musl": "2.5.12", "@biomejs/cli-linux-x64": "2.5.12", "@biomejs/cli-linux-x64-musl": "2.5.12", "@biomejs/cli-win32-arm64": "2.5.12", "@biomejs/cli-win32-x64": "2.5.12" }, "bin": { "biome": "bin/biome" } }, "sha512-Lw4VHZRebrReBBnlHa12JQjnIBm3JJAA55PDB9LbBVBF0q4RYphm6KfmIjqtPhf61MxZ5Q9KoK8R8x+7per5Aw=="],
 
@@ -314,7 +318,7 @@
 
     "inherits": ["inherits@2.0.4", "https://npm.postfmly.com/inherits/-/inherits-2.0.4.tgz", {}, "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ=="],
 
-    "ini": ["ini@6.0.0", "https://npm.postfmly.com/ini/-/ini-6.0.0.tgz", {}, "sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ=="],
+    "ini": ["ini@7.0.0", "https://npm.postfmly.com/ini/-/ini-7.0.0.tgz", {}, "sha512-ifK0CgjALofS5bkrcTy4RaQ9Vx2Knf/eLeIO+NaswQEpH1UblrtTSCIvN71qQDMq0PeQ/SSPojvEJp9vvvfr+w=="],
 
     "is-safe-filename": ["is-safe-filename@0.1.1", "https://npm.postfmly.com/is-safe-filename/-/is-safe-filename-0.1.1.tgz", {}, "sha512-4SrR7AdnY11LHfDKTZY1u6Ga3RuxZdl3YKWWShO5iyuG5h8QS4GD2tOb04peBJ5I7pXbR+CGBNEhTcwK+FzN3g=="],
 
@@ -381,9 +385,5 @@
     "yaml": ["yaml@2.9.0", "https://npm.postfmly.com/yaml/-/yaml-2.9.0.tgz", { "bin": { "yaml": "bin.mjs" } }, "sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA=="],
 
     "yarn-lockfile": ["yarn-lockfile@1.1.1", "https://npm.postfmly.com/yarn-lockfile/-/yarn-lockfile-1.1.1.tgz", { "dependencies": { "@yarnpkg/lockfile": "*" } }, "sha512-IxrY3PqAoensmJ6a+klUMQnpfF9REjUJcCgyHs9GKK97RMl8jnvVrbJx5S7dmkC+X8DI03mzWuoeTjrnIfQ3dA=="],
-
-    "chalk-template/chalk": ["chalk@5.6.2", "https://npm.postfmly.com/chalk/-/chalk-5.6.2.tgz", {}, "sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA=="],
-
-    "rc/ini": ["ini@1.3.8", "https://npm.postfmly.com/ini/-/ini-1.3.8.tgz", {}, "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="],
   }
 }

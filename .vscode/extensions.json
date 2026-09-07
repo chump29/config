@@ -21,6 +21,7 @@
     "ms-python.black-formatter",
     "ms-python.isort",
     "ms-python.pylint",
+    "ms-vscode.live-server",
     "redhat.vscode-yaml",
     "rodolphebarbanneau.python-docstring-highlighter",
     "ryanluker.vscode-coverage-gutters",
