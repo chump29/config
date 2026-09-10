@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.64",
+  "version": "1.4.65",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -29,7 +29,7 @@
     "lint": "bun run scan && bun run lint:spell && bun run lint:biome",
     "lint:biome": "bun run --bun biome check --write --verbose --error-on-warnings",
     "lint:spell": "bun run --bun cspell --dot --verbose .",
-    "scan": "bun audit && bun run --bun cve-lite",
+    "scan": "bun audit && bun run --bun cve-lite --check-overrides",
     "scan:e18e": "bunx --bun @e18e/cli analyze",
     "updates": "bunx --bun npm-check-updates --dep peer --cooldown 0 --install never --packageManager bun --peer"
   },
@@ -38,11 +38,11 @@
     "ini": "7.0.0"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^2.5.12",
-    "@types/bun": "^1.4.1",
+    "@biomejs/biome": "^2.5.13",
+    "@types/bun": "^1.4.2",
     "@types/node": "^26.5.0",
     "cspell": "^10.3.0",
-    "cve-lite-cli": "^1.33.0",
+    "cve-lite-cli": "^1.34.0",
     "globals": "^17.12.0",
     "typescript": "^7.0.2"
   },
