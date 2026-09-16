@@ -103,7 +103,8 @@
         "noUnresolvedImports": "off",
         "noUnusedInstantiation": "error",
         "useJsonImportAttributes": "error",
-        "useQwikValidLexicalScope": "off"
+        "useQwikValidLexicalScope": "off",
+        "useSingleJsDocAsterisk": "error"
       },
       "nursery": {
         "noBaseToString": "error",
@@ -113,9 +114,11 @@
         "noIdenticalTestTitle": "error",
         "noImpliedEval": "error",
         "noInvalidFileInputAccept": "error",
+        "noJsonUnsafeValues": "error",
         "noJsxNamespace": "error",
         "noLoopFunc": "error",
         "noNegationInEqualityCheck": "error",
+        "noReturnInFinally": "error",
         "noThisOutsideOfClass": "error",
         "noUndeclaredClasses": "error",
         "noUnmodifiedLoopCondition": "error",
@@ -138,6 +141,7 @@
         "useTailwindShorthandClasses": "error",
         "useTestHooksInOrder": "error",
         "useThisInClassMethods": "error",
+        "useValidTestTitle": "error",
         "useVarsOnTop": "error"
       },
       "performance": {

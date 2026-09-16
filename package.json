@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.67",
+  "version": "1.4.68",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -38,7 +38,7 @@
     "ini": "7.0.0"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^2.5.13",
+    "@biomejs/biome": "^2.5.14",
     "@types/bun": "^1.4.2",
     "@types/node": "^26.5.1",
     "cspell": "^10.3.2",
