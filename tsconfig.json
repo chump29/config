@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "declaration": true,
     "erasableSyntaxOnly": true,
-    "isolatedDeclarations": true,
     "jsx": "react-jsx",
     "module": "esnext",
     "moduleDetection": "force",
@@ -16,7 +14,6 @@
     "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
