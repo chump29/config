@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "checkJs": true,
     "declaration": true,
     "erasableSyntaxOnly": true,
     "isolatedDeclarations": true,
