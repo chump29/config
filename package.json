@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.4.75",
+  "version": "1.4.76",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -34,13 +34,13 @@
     "updates": "bunx --bun npm-check-updates --dep overrides,peer --cooldown 0 --install never --packageManager bun --peer"
   },
   "overrides": {
-    "chalk": "6.0.0",
+    "chalk": "6.0.1",
     "ini": "7.0.0"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2.5.14",
     "@types/bun": "^1.4.2",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.3",
     "cspell": "^10.3.4",
     "cve-lite-cli": "^1.37.0",
     "globals": "^17.12.0",
