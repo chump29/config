@@ -5,23 +5,23 @@ export _repo=config
 
 echo -e "📌 Packages:\n"
 
-_biome=$(jq -r '.peerDependencies."@biomejs/biome" // "❓"' ../package.json)
+_biome=$(jq -r '.dependencies."@biomejs/biome" // "❓"' ../package.json)
 export _biome
 echo -e " • @biomejs/biome: $_biome"
 
-_bun=$(bun -v)
+_bun=$(bun --version)
 export _bun
 echo -e " • Bun: $_bun"
 
-_cspell=$(jq -r '.peerDependencies.cspell // "❓"' ../package.json)
+_cspell=$(jq -r '.dependencies.cspell // "❓"' ../package.json)
 export _cspell
 echo -e " • cspell: $_cspell"
 
-_cve=$(jq -r '.peerDependencies."cve-lite-cli" // "❓"' ../package.json)
+_cve=$(jq -r '.dependencies."cve-lite-cli" // "❓"' ../package.json)
 export _cve
 echo -e " • cve-lite-cli: $_cve"
 
-_typescript=$(jq -r '.peerDependencies.typescript // "❓"' ../package.json)
+_typescript=$(jq -r '.dependencies.typescript // "❓"' ../package.json)
 export _typescript
 echo -e " • typescript: $_typescript"
 

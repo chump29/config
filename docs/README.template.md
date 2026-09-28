@@ -21,8 +21,6 @@
 ![CVE Lite](https://img.shields.io/badge/CVE%20Lite-$_cve-informational?style=plastic&logo=owasp "CVE Lite") &nbsp;
 ![Typescript](https://img.shields.io/badge/Typescript-$_typescript-informational?style=plastic&logo=typescript "Typescript")
 
-![CodeQL](https://github.com/$_user/$_repo/workflows/CodeQL/badge.svg "CodeQL")
-
 ![NO AI](https://img.shields.io/badge/NO-AI-orange?style=plastic "NO AI") &nbsp;
 ![License](https://img.shields.io/github/license/$_user/$_repo?style=plastic&color=blueviolet&label=%20License&logo=gplv3 "GPLv3") &nbsp;
 ![CVE Scan](https://img.shields.io/badge/CVE%20Scan-Pass-success?style=plastic&logo=owasp "CVE Scan")
@@ -35,18 +33,6 @@
 ```bash
 bun add --dev @postfmly/config
 ```
-
-#### Peer Dependencies<sup>1</sup>:
-
-- @biomejs/biome
-- @types/bun
-- @types/node
-- cspell
-- cve-lite-cli
-- globals
-- typescript
-
-###### <sup>1</sup> [Automatically](https://bun.com/docs/pm/cli/install#peer-dependencies "Bun documentation") installed via Bun
 
 ---
 
