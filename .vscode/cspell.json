@@ -130,12 +130,15 @@
     "venvalid",
     "vite",
     "wallos",
+    "weatherbot",
     "webp",
     "welcomebot",
     "whatsupdocker",
     "wikijs",
     "wordjumblebot",
     "wordlist",
-    "WSGI"
+    "WSGI",
+    "wttr",
+    "zipcodes"
   ]
 }
