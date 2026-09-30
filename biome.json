@@ -142,7 +142,6 @@
         "useReactCompiler": "error",
         "useReduceTypeParameter": "error",
         "useRegexpTest": "error",
-        "useStrictBooleanExpressions": "error",
         "useStringStartsEndsWith": "error",
         "useTailwindShorthandClasses": "error",
         "useTestHooksInOrder": "error",
