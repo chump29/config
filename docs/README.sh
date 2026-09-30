@@ -17,10 +17,6 @@ _cspell=$(jq -r '.dependencies.cspell // "❓"' ../package.json)
 export _cspell
 echo -e " • cspell: $_cspell"
 
-_cve=$(jq -r '.dependencies."cve-lite-cli" // "❓"' ../package.json)
-export _cve
-echo -e " • cve-lite-cli: $_cve"
-
 _typescript=$(jq -r '.dependencies.typescript // "❓"' ../package.json)
 export _typescript
 echo -e " • typescript: $_typescript"
