@@ -56,7 +56,7 @@
     "editor.defaultFormatter": "bscan.perlnavigator"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     }
@@ -97,9 +97,6 @@
       "color": "#04b34f",
       "tag": "*"
     }
-  ],
-  "black-formatter.args": [
-    "--line-length=120"
   ],
   "coverage-gutters.coverageFileNames": [
     "lcov.info"
@@ -143,17 +140,12 @@
     "*.css": "tailwindcss"
   },
   "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/.ruff_cache/**": true,
+    "**/.git/**": true,
     "**/.venv/**": true,
+    "**/coverage/**": true,
     "**/dist/**": true,
     "**/node_modules/**": true
   },
-  "isort.args": [
-    "--profile",
-    "black"
-  ],
   "json.schemaDownload.trustedDomains": {
     "https://biomejs.dev/schemas/latest/": true,
     "https://html-validate.org/schemas/": true,
