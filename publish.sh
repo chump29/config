@@ -8,4 +8,4 @@ bun pm version patch --no-git-tag-version
 
 ./build.sh
 
-npm publish
+npm publish ./dist --ignore-scripts

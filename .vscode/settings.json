@@ -2,7 +2,9 @@
   "biome.configurationPath": "./biome.json",
   "biome.lsp.bin": "./node_modules/@biomejs/biome/bin/biome",
   "biome.suggestInstallingGlobally": false,
+  "coverage-gutters.coverageFileNames": ["lcov.info"],
   "cSpell.blockCheckingWhenTextChunkSizeGreaterThan": 3000,
+  "cSpell.import": ["${workspaceFolder}/.vscode/cspell.json"],
   "css.lint.unknownAtRules": "ignore",
   "editor.detectIndentation": true,
   "editor.formatOnPaste": true,
@@ -14,17 +16,21 @@
   "js/ts.experimental.useTsgo": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
   "markdownlint.configFile": "${workspaceFolder}/.vscode/.markdownlint.json",
+  "pylint.args": ["--max-line-length=120"],
   "pylint.importStrategy": "fromEnvironment",
   "python.analysis.autoSearchPaths": false,
   "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.include": ["backend/**/*.py"],
   "python.analysis.indexing": false,
   "python.analysis.typeCheckingMode": "standard",
   "python.analysis.useLibraryCodeForTypes": false,
-  "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
   "python.envFile": "${workspaceFolder}/backend/.env",
   "python.terminal.activateEnvironment": false,
   "python.terminal.useEnvFile": true,
+  "shellcheck.customArgs": ["-x"],
   "terminal.integrated.scrollback": 10000,
+  "todo-tree.filtering.excludeGlobs": ["**/.vscode/settings.json", "**/TODO.md"],
+  "todo-tree.general.tags": ["TODO"],
   "todo-tree.highlights.enabled": false,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.)).*($TAGS)",
   "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
@@ -52,7 +58,7 @@
   "[nginx]": {
     "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
   },
-   "[perl]": {
+  "[perl]": {
     "editor.defaultFormatter": "bscan.perlnavigator"
   },
   "[python]": {
@@ -97,12 +103,6 @@
       "color": "#04b34f",
       "tag": "*"
     }
-  ],
-  "coverage-gutters.coverageFileNames": [
-    "lcov.info"
-  ],
-  "cSpell.import": [
-    "${workspaceFolder}/.vscode/cspell.json"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
@@ -150,21 +150,5 @@
     "https://biomejs.dev/schemas/latest/": true,
     "https://html-validate.org/schemas/": true,
     "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
-  },
-  "pylint.args": [
-    "--max-line-length=120"
-  ],
-  "python.analysis.include": [
-    "backend/**/*.py"
-  ],
-  "shellcheck.customArgs": [
-    "-x"
-  ],
-  "todo-tree.filtering.excludeGlobs": [
-    "**/.vscode/settings.json",
-    "**/TODO.md"
-  ],
-  "todo-tree.general.tags": [
-    "TODO"
-  ]
+  }
 }

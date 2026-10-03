@@ -6,9 +6,6 @@
     "punctuation": ".,;!"
   },
   "MD033": {
-    "allowed_elements": [
-      "img",
-      "sup"
-    ]
+    "allowed_elements": ["img", "sup"]
   }
 }

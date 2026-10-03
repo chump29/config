@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.5.8",
+  "version": "1.6.0",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -15,17 +15,14 @@
     "name": "Chris Post",
     "email": "admin@postfmly.com"
   },
+  "sideEffects": false,
   "type": "module",
   "bin": {
     "link-configs": "bin/link-configs"
   },
-  "files": [
-    ".vscode/",
-    "biome.json",
-    "bin/",
-    "tsconfig.json"
-  ],
   "scripts": {
+    "build": "bun run build:clean && bun run --bun bunup",
+    "build:clean": "rm -rf dist",
     "lint": "bun run scan && bun run lint:spell && bun run lint:biome",
     "lint:biome": "bun run --bun biome check --write --verbose --error-on-warnings",
     "lint:spell": "bun run --bun cspell --dot --verbose .",
@@ -44,6 +41,9 @@
     "cspell": "^10.3.6",
     "globals": "^17.13.0",
     "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "bunup": "^0.16.32"
   },
   "packageManager": "bun@1.4.2",
   "engines": {

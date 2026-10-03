@@ -34,7 +34,7 @@ bun add --dev @postfmly/config
 
 ### Link
 
-#### To link/refresh Visual Studio Code configs to project (after updates):
+#### To link/refresh Visual Studio Code configs for project:
 
 ###### *NOTES:*
 
@@ -88,11 +88,21 @@ bun run lint
 
 ---
 
-### README
+### Building
+
+#### README:
 
 ```bash
 ./docs.sh
 ```
+
+#### Package:
+
+```bash
+./build.sh
+```
+
+###### *NOTE: Includes linting and building README*
 
 ---
 
@@ -106,9 +116,9 @@ bun run lint
 
 ###### *NOTES:* <!-- markdownlint-disable MD0024 -->
 
-- ###### *Increments `patch` version in `package.json`*
+- ###### *Includes building package*
 
-- ###### *Includes linting and building README*
+- ###### *Increments `patch` version in `package.json`*
 
 #### Unpublish:
 
