@@ -22,7 +22,7 @@
   "python.analysis.useLibraryCodeForTypes": false,
   "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
   "python.envFile": "${workspaceFolder}/backend/.env",
-  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvironment": false,
   "python.terminal.useEnvFile": true,
   "terminal.integrated.scrollback": 10000,
   "todo-tree.highlights.enabled": false,
