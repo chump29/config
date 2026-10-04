@@ -2,6 +2,7 @@
   "language": "en",
   "version": "0.2",
   "ignorePaths": [
+    "*.csv",
     "__pycache__",
     "_/",
     ".coverage/",
@@ -15,6 +16,7 @@
     "extensions.json",
     "node_modules/",
     "package.json",
+    "patches/",
     "pnpm-lock.yaml",
     "pyproject.toml",
     "settings.json",
