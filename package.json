@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -23,10 +23,12 @@
   "scripts": {
     "build": "bun run build:clean && bun run --bun bunup",
     "build:clean": "rm -rf dist",
-    "lint": "bun run scan && bun run lint:spell && bun run lint:biome",
+    "lint": "bun run lint:spell && bun run lint:biome",
     "lint:biome": "bun run --bun biome check --write --verbose --error-on-warnings",
     "lint:spell": "bun run --bun cspell --dot --verbose .",
-    "scan": "bun audit && bunx --bun cve-lite-cli --check-overrides",
+    "scan": "bun run scan:audit && bun run scan:cve && bun run scan:e18e",
+    "scan:audit": "bun audit",
+    "scan:cve": "bunx --bun cve-lite-cli --check-overrides --check-network --check-maintenance",
     "scan:e18e": "bunx --bun @e18e/cli analyze",
     "updates": "bunx --bun npm-check-updates --dep overrides,prod,dev --cooldown 0 --install never --packageManager bun --peer"
   },
