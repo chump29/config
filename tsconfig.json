@@ -33,9 +33,6 @@
       ],
       "@types/node": [
         "./node_modules/@types/node"
-      ],
-      "typescript": [
-        "./node_modules/typescript"
       ]
     }
   }

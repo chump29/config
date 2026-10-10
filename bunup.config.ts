@@ -19,7 +19,7 @@ const config: ReturnType<typeof defineConfig> = defineConfig({
   plugins: [copy(additionalFiles)],
   onSuccess: (): void => console.info(` 🗐  Copying ${additionalFiles.join(", ")}...`),
   unused: {
-    ignore: ["@biomejs/biome", "@types/bun", "@types/node", "cspell", "globals", "typescript"],
+    ignore: ["@biomejs/biome", "@types/bun", "@types/node", "cspell", "globals"],
     level: "error"
   }
 })

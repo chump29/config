@@ -17,10 +17,6 @@ _cspell=$(jq -r '.dependencies.cspell // "❓"' ../package.json)
 export _cspell
 echo -e " • cspell: $_cspell"
 
-_typescript=$(jq -r '.dependencies.typescript // "❓"' ../package.json)
-export _typescript
-echo -e " • typescript: $_typescript"
-
 echo -e "\n🛠️  Creating README.md..."
 
 envsubst < README.template.md > ../README.md
