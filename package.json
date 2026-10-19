@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.6",
+  "version": "1.6.7",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -35,7 +35,7 @@
   "overrides": {
     "chalk": "6.0.1",
     "ini": "7.0.0",
-    "undici-types": "8.12.1"
+    "undici-types": "8.12.3"
   },
   "dependencies": {
     "@biomejs/biome": "^2.5.15",

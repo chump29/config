@@ -16,7 +16,6 @@
   "js/ts.experimental.useTsgo": true,
   "js/ts.preferences.importModuleSpecifier": "relative",
   "markdownlint.configFile": "${workspaceFolder}/.vscode/.markdownlint.json",
-  "pylint.args": ["--max-line-length=120"],
   "pylint.importStrategy": "fromEnvironment",
   "python.analysis.autoSearchPaths": false,
   "python.analysis.diagnosticMode": "openFilesOnly",
@@ -150,5 +149,19 @@
     "https://biomejs.dev/schemas/latest/": true,
     "https://html-validate.org/schemas/": true,
     "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
+  },
+  "pylint.args": [
+    "--max-line-length=120",
+    "--enable-all-extensions",
+    "--disable=too-many-try-statements",
+    "--disable=consider-using-assignment-expr"
+  ],
+  "pylint.severity": {
+    "convention": "Error",
+    "error": "Error",
+    "fatal": "Error",
+    "info": "Error",
+    "refactor": "Error",
+    "warning": "Error"
   }
 }
