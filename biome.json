@@ -214,6 +214,13 @@
         "useTestHooksInOrder": "error",
         "useThisInClassMethods": "error",
         "useVarsOnTop": "error",
+        "useConsistentTestIt": {
+          "level": "error",
+          "options": {
+            "function": "test",
+            "withinDescribe": "test"
+          }
+        },
         "useExportType": {
           "level": "error",
           "options": {
