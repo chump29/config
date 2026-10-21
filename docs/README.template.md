@@ -6,7 +6,7 @@
 
 - Biome
 - CSpell
-- TypeScript *(`tsconfig.json` only)*
+- TypeScript _(`tsconfig.json` only)_
 - Visual Studio Code
   - Extensions
   - Settings
@@ -35,11 +35,11 @@ bun add --dev @postfmly/config
 
 #### To link/refresh Visual Studio Code configs for project:
 
-###### *NOTES:*
+###### _NOTES:_
 
-- ###### *Run after initial install*
+- ###### _Run after initial install_
 
-- ###### *Run after package update*
+- ###### _Run after package update_
 
 ```bash
 bun run link-configs
@@ -55,9 +55,7 @@ bun run link-configs
 // biome.json
 
 {
-  "extends": [
-    "@postfmly/config/biome.json"
-  ]
+  "extends": ["@postfmly/config/biome.json"]
 }
 ```
 
@@ -101,7 +99,7 @@ bun run lint
 ./build.sh
 ```
 
-###### *NOTE: Includes linting and building README*
+###### _NOTE: Includes linting and building README_
 
 ---
 
@@ -113,11 +111,11 @@ bun run lint
 ./publish.sh
 ```
 
-###### *NOTES:* <!-- markdownlint-disable MD0024 -->
+###### _NOTES:_ <!-- markdownlint-disable MD0024 -->
 
-- ###### *Includes building package*
+- ###### _Includes building package_
 
-- ###### *Increments `patch` version in `package.json`*
+- ###### _Increments `patch` version in `package.json`_
 
 #### Unpublish:
 

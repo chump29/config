@@ -6,14 +6,14 @@
 
 - Biome
 - CSpell
-- TypeScript *(`tsconfig.json` only)*
+- TypeScript _(`tsconfig.json` only)_
 - Visual Studio Code
   - Extensions
   - Settings
 
 ---
 
-![Biome](https://img.shields.io/badge/Biome-^2.5.15-informational?style=plastic&logo=biome "Biome") &nbsp;
+![Biome](https://img.shields.io/badge/Biome-^2.6.2-informational?style=plastic&logo=biome "Biome") &nbsp;
 ![Bun](https://img.shields.io/badge/Bun-1.4.3-informational?style=plastic&logo=bun "Bun") &nbsp;
 ![CSpell](https://img.shields.io/badge/CSpell-^10.4.0-informational?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACfklEQVR4nOzVMUpjURxH4ZuZdFNkapvEvSSLEFyGRRBcll22kMJdiE1qQYltykfg+FC+r/4Xv+Jc7vJ8Po+fabfbHQ6HicdP+7F/iAdx4c/cA/idhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFYrHdbufecKXj8Xg6nSYe367HZhMPAmq+QhLCIiEsEsIiISwSwiIhLBLCIiEsEsIiISwSy/XfuSdc6/VzvE8+Xi3Gf4/oGy2eb+aecK3Ht/HyMfX4/t+4W7V7uOQVkxAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBaJrwAAAP//lQwX4xbXkzUAAAAASUVORK5CYII= "CSpell") &nbsp; <!-- markdownlint-disable MD013 -->
 
@@ -35,11 +35,11 @@ bun add --dev @postfmly/config
 
 #### To link/refresh Visual Studio Code configs for project:
 
-###### *NOTES:*
+###### _NOTES:_
 
-- ###### *Run after initial install*
+- ###### _Run after initial install_
 
-- ###### *Run after package update*
+- ###### _Run after package update_
 
 ```bash
 bun run link-configs
@@ -55,9 +55,7 @@ bun run link-configs
 // biome.json
 
 {
-  "extends": [
-    "@postfmly/config/biome.json"
-  ]
+  "extends": ["@postfmly/config/biome.json"]
 }
 ```
 
@@ -101,7 +99,7 @@ bun run lint
 ./build.sh
 ```
 
-###### *NOTE: Includes linting and building README*
+###### _NOTE: Includes linting and building README_
 
 ---
 
@@ -113,11 +111,11 @@ bun run lint
 ./publish.sh
 ```
 
-###### *NOTES:* <!-- markdownlint-disable MD0024 -->
+###### _NOTES:_ <!-- markdownlint-disable MD0024 -->
 
-- ###### *Includes building package*
+- ###### _Includes building package_
 
-- ###### *Increments `patch` version in `package.json`*
+- ###### _Increments `patch` version in `package.json`_
 
 #### Unpublish:
 

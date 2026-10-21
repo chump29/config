@@ -6,7 +6,6 @@
         "noDuplicateClasses": "on",
         "useSortedAttributes": "on",
         "useSortedEnumMembers": "on",
-        "useSortedInterfaceMembers": "on",
         "useSortedPackageJson": "on",
         "useSortedProperties": "on",
         "organizeImports": {
@@ -29,6 +28,12 @@
               ":BLANK_LINE:",
               ":STYLE:"
             ]
+          }
+        },
+        "useSortedInterfaceMembers": {
+          "level": "on",
+          "options": {
+            "partitionByNewLine": true
           }
         },
         "useSortedKeys": {
@@ -87,15 +92,21 @@
         "noDivRegex": "error",
         "noExcessiveCognitiveComplexity": "off",
         "noExcessiveLinesPerFunction": "off",
+        "noExcessiveNestedCallbacks": "error",
         "noExtraBooleanCast": "error",
         "noImplicitCoercions": "error",
         "noRedundantDefaultExport": "error",
+        "noUnnecessaryTemplateExpression": "error",
         "noUselessCatch": "error",
         "noUselessReturn": "error",
         "useArrayFind": "error",
-        "useLiteralKeys": "off"
+        "useLiteralKeys": "off",
+        "useMathMinMax": "error",
+        "useRegexpTest": "error"
       },
       "correctness": {
+        "noComponentHookFactories": "error",
+        "noJsxNamespace": "error",
         "noNodejsModules": "off",
         "noSolidDestructuredProps": "off",
         "noUndeclaredDependencies": "off",
@@ -107,47 +118,54 @@
         "useSingleJsDocAsterisk": "error"
       },
       "nursery": {
+        "noAccidentalBitwiseOperators": "error",
         "noBaseToString": "error",
-        "noComponentHookFactories": "error",
-        "noConditionalExpect": "error",
-        "noExcessiveNestedCallbacks": "error",
-        "noIdenticalTestTitle": "error",
+        "noDoubleComparison": "error",
         "noImpliedEval": "error",
         "noInvalidFileInputAccept": "error",
         "noJsonUnsafeValues": "error",
-        "noJsxNamespace": "error",
-        "noLoopFunc": "error",
         "noMeaninglessVoidOperator": "error",
         "noMisleadingReturnType": "error",
         "noMisplacedListElements": "error",
         "noNegationInEqualityCheck": "error",
+        "noNestedSwitch": "error",
+        "noNestedTemplateLiterals": "error",
+        "noObjectConstructor": "error",
+        "noOctal": "error",
+        "noPromiseExecutorReturn": "error",
         "noReturnInFinally": "error",
         "noSelfImport": "error",
         "noThisOutsideOfClass": "error",
         "noUndeclaredClasses": "error",
         "noUnmodifiedLoopCondition": "error",
-        "noUnnecessaryTemplateExpression": "error",
-        "useDomNodeTextContent": "error",
-        "useDomQuerySelector": "error",
-        "useExpect": "error",
+        "noUnsafePlusOperands": "error",
+        "noUnsafeTypeAssertion": "error",
+        "noUnsafeUnaryMinus": "error",
+        "noUselessAssignment": "error",
+        "noUselessDateGetTime": "error",
+        "noZeroFractions": "error",
+        "useCapitalizedConstructors": "error",
+        "useConsistentJsonFileRead": "error",
         "useExplicitType": "error",
         "useFlatMathMinMax": "error",
-        "useIframeSandbox": "error",
-        "useImportsFirst": "error",
         "useIncludes": "error",
-        "useMathMinMax": "error",
+        "useLowercaseTestTitle": "error",
+        "useMatchingFunctionName": "error",
         "useModernMathApis": "error",
+        "useNamedFunction": "error",
         "useNullishCoalescing": "error",
         "usePromiseRejectErrors": "error",
         "useReactCompiler": "error",
-        "useReduceTypeParameter": "error",
-        "useRegexpTest": "error",
+        "useSimplifiedBooleanReturn": "error",
         "useStringStartsEndsWith": "error",
         "useTailwindShorthandClasses": "error",
-        "useTestHooksInOrder": "error",
-        "useThisInClassMethods": "error",
         "useValidTestTitle": "error",
-        "useVarsOnTop": "error"
+        "useConsistentFunctionStyle": {
+          "level": "error",
+          "options": {
+            "allowArrowFunctions": true
+          }
+        }
       },
       "performance": {
         "noAwaitInLoops": "error",
@@ -157,11 +175,13 @@
         "noNamespaceImport": "error",
         "noReExportAll": "error",
         "noSyncScripts": "error",
+        "useDomNodeTextContent": "error",
         "useSolidForComponent": "off",
         "useTopLevelRegex": "error"
       },
       "security": {
-        "noSecrets": "off"
+        "noSecrets": "off",
+        "useIframeSandbox": "error"
       },
       "style": {
         "noCommonJs": "error",
@@ -182,12 +202,18 @@
         "useConsistentEnumValueType": "error",
         "useConsistentMethodSignatures": "error",
         "useDestructuring": "error",
+        "useDomQuerySelector": "error",
         "useErrorCause": "off",
         "useFilenamingConvention": "off",
         "useGlobalThis": "error",
+        "useImportsFirst": "error",
         "useNamingConvention": "off",
         "useNumericSeparators": "error",
+        "useReduceTypeParameter": "error",
         "useSpreadOverApply": "error",
+        "useTestHooksInOrder": "error",
+        "useThisInClassMethods": "error",
+        "useVarsOnTop": "error",
         "useExportType": {
           "level": "error",
           "options": {
@@ -202,17 +228,23 @@
         }
       },
       "suspicious": {
+        "noConditionalExpect": "error",
         "noDuplicatedSpreadProps": "error",
         "noEmptyBlockStatements": "error",
         "noEqualsToNull": "error",
         "noForIn": "error",
         "noGlobalIsNan": "error",
+        "noIdenticalTestTitle": "error",
+        "noJsxLeakedDollar": "error",
         "noLeakedRender": "error",
+        "noLoopFunc": "error",
         "noNestedPromises": "error",
         "noReactSpecificProps": "off",
+        "noReactStringRefs": "error",
         "noUnknownAttribute": "error",
         "noUnnecessaryConditions": "error",
         "useArraySortCompare": "error",
+        "useExpect": "error",
         "noConsole": {
           "level": "error",
           "options": {
