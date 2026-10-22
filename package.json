@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.11",
+  "version": "1.6.12",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -20,6 +20,10 @@
   "bin": {
     "link-configs": "bin/link-configs"
   },
+  "files": [
+    "// ! NOTE: This makes e18e happy:",
+    ".vscode/"
+  ],
   "scripts": {
     "build": "bun run build:clean && bun run --bun bunup",
     "build:clean": "rm -rf dist",
@@ -46,9 +50,9 @@
   "devDependencies": {
     "bunup": "^0.16.32"
   },
-  "packageManager": "bun@1.4.3",
+  "packageManager": "bun@1.4.4",
   "engines": {
-    "bun": "^1.4.3"
+    "bun": "^1.4.4"
   },
   "engineStrict": true
 }
