@@ -54,11 +54,12 @@
     "ignoreUnknown": true,
     "includes": [
       "**",
-      "!!bun.lock",
+      "!!.husky/prepare.*",
       "!!.pnpm-store",
       "!!.vscode",
       "!!**/*.html",
-      "!!*coverage",
+      "!!coverage",
+      "!!bun.lock",
       "!!dist",
       "!!node_modules",
       "!!package.json",
@@ -70,7 +71,7 @@
     "lineWidth": 120
   },
   "javascript": {
-    "globals": ["Bun"],
+    "globals": ["Bun", "createMock"],
     "formatter": {
       "bracketSameLine": true,
       "semicolons": "asNeeded",

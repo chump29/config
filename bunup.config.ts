@@ -3,7 +3,7 @@ import { copy } from "bunup/plugins"
 
 import { dependencies } from "./package.json" with { type: "json" }
 
-const additionalFiles: string[] = [
+const additionalFiles = [
   ".vscode",
   "bin",
   "biome.json",
