@@ -61,6 +61,7 @@
       "!!bun.lock",
       "!!coverage",
       "!!db/**/*",
+      "db/schema.ts",
       "!!dist",
       "!!node_modules",
       "!!package.json",
