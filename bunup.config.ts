@@ -13,7 +13,7 @@ const additionalFiles = [
   "tsconfig.json"
 ].toSorted((a: string, b: string): number => a.localeCompare(b))
 
-const config: ReturnType<typeof defineConfig> = defineConfig({
+export default defineConfig({
   dts: false,
   footer: "// ♡ ᓚᘏᗢ ♡",
   minify: true,
@@ -24,5 +24,3 @@ const config: ReturnType<typeof defineConfig> = defineConfig({
     level: "error"
   }
 })
-
-export default config
