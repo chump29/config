@@ -112,6 +112,7 @@
         "noComponentHookFactories": "error",
         "noJsxNamespace": "error",
         "noNodejsModules": "off",
+        "noReactNativeRawText": "off",
         "noSolidDestructuredProps": "off",
         "noUndeclaredDependencies": "off",
         "noUndeclaredVariables": "error",
