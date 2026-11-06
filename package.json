@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.21",
+  "version": "1.6.22",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -33,10 +33,10 @@
     "updates": "bunx --bun npm-check-updates --dep overrides,prod,dev --cooldown 0 --install never --packageManager bun --peer"
   },
   "overrides": {
-    "undici-types": "8.12.3"
+    "undici-types": "8.12.4"
   },
   "dependencies": {
-    "@biomejs/biome": "^2.6.5",
+    "@biomejs/biome": "^2.6.6",
     "@types/bun": "^1.4.4",
     "@types/node": "^26.6.6",
     "cspell": "^10.4.0",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "bunup": "^0.16.32",
-    "cve-lite-cli": "^1.40.0"
+    "cve-lite-cli": "^1.41.0"
   },
   "packageManager": "bun@1.4.4",
   "engines": {
