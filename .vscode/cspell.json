@@ -27,6 +27,7 @@
     "autoincrement",
     "backref",
     "bdrs",
+    "bgsz",
     "biomejs",
     "birdnet",
     "birthdaybot",
