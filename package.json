@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.24",
+  "version": "1.6.25",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "bunup": "^0.16.32",
-    "cve-lite-cli": "^1.41.0"
+    "cve-lite-cli": "^1.41.1"
   },
   "packageManager": "bun@1.4.4",
   "engines": {

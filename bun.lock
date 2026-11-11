@@ -13,7 +13,7 @@
       },
       "devDependencies": {
         "bunup": "^0.16.32",
-        "cve-lite-cli": "^1.41.0",
+        "cve-lite-cli": "^1.41.1",
       },
     },
   },
@@ -315,7 +315,7 @@
 
     "@yarnpkg/lockfile": ["@yarnpkg/lockfile@1.1.0", "https://npm.postfmly.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz", {}, "sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ=="],
 
-    "ansi-regex": ["ansi-regex@6.5.0", "https://npm.postfmly.com/ansi-regex/-/ansi-regex-6.5.0.tgz", {}, "sha512-zhvbbbdt1kbw7EJ9OQoxmQcuaNR9P5kTj7e/YdmOSU10aHWbycofJxA6jKfoEy3vlLdctOF9ZHaxLtmSm998wQ=="],
+    "ansi-regex": ["ansi-regex@6.6.0", "https://npm.postfmly.com/ansi-regex/-/ansi-regex-6.6.0.tgz", {}, "sha512-XZ5apbzreCbXSKwPjJstu8R0zOi247w3XYwWxtwBXgpZrCyc1Ka7p9/xY0A9/diMewmHbEKz+FIraWaEWjlN5g=="],
 
     "array-timsort": ["array-timsort@1.0.3", "https://npm.postfmly.com/array-timsort/-/array-timsort-1.0.3.tgz", {}, "sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ=="],
 
@@ -343,7 +343,7 @@
 
     "coffi": ["coffi@0.1.37", "https://npm.postfmly.com/coffi/-/coffi-0.1.37.tgz", { "dependencies": { "strip-json-comments": "^5.0.3" } }, "sha512-ewO5Xis7sw7g54yI/3lJ/nNV90Er4ZnENeDORZjrs58T70MmwKFLZgevraNCz+RmB4KDKsYT1ui1wDB36iPWqQ=="],
 
-    "commander": ["commander@15.0.0", "https://npm.postfmly.com/commander/-/commander-15.0.0.tgz", {}, "sha512-z67u4ZhzCL/Tydu1lJARtEZYWbWaN7oYLHbsuzocr6y4N6WZAagG3RQ4FW61V1/0+jImpj293XfrcYnd1qxtPg=="],
+    "commander": ["commander@15.1.0", "https://npm.postfmly.com/commander/-/commander-15.1.0.tgz", {}, "sha512-cgnQ88TRrWcC7pVq46RzJVRMktu3W2RcbnoidnfBsl1bmDCBwJS/udcIZpKoCrbAYYaCqsz1yZCVIgbIaU3ddQ=="],
 
     "comment-json": ["comment-json@5.0.0", "https://npm.postfmly.com/comment-json/-/comment-json-5.0.0.tgz", { "dependencies": { "array-timsort": "^1.0.3", "esprima": "^4.0.1" } }, "sha512-uiqLcOiVDJtBP8WGkZHEP+FZIhTzP1dxvn59EfoYUi9gqupjrBWVQkO2atDrbnKPwLeotFYDsuNb26uBMqB+hw=="],
 
@@ -365,7 +365,7 @@
 
     "cspell-trie-lib": ["cspell-trie-lib@10.4.1", "https://npm.postfmly.com/cspell-trie-lib/-/cspell-trie-lib-10.4.1.tgz", { "peerDependencies": { "@cspell/cspell-types": "10.4.1" } }, "sha512-MOxZ3b2MLNfRWXz1Seh6xXGvUclMxA9h11tCBj6+Y0pd+7KtNk7YMlzmHIGOnbF9W5YZNtA2bMuYbVlefcOa1w=="],
 
-    "cve-lite-cli": ["cve-lite-cli@1.41.0", "https://npm.postfmly.com/cve-lite-cli/-/cve-lite-cli-1.41.0.tgz", { "dependencies": { "better-sqlite3": "^12.8.0", "fflate": "^0.8.3", "semver": "^7.8.5", "yaml": "^2.7.1", "yarn-lockfile": "^1.1.0" }, "bin": { "cve-lite": "dist/index.js" } }, "sha512-L3cFBziZ2yfeiBcUuR1x73BG+uAAp0WJIZ1tydsPcjw94fT84XcMoVvzbV27uE2HUw9LQEm31PoznYMxh0T/1Q=="],
+    "cve-lite-cli": ["cve-lite-cli@1.41.1", "https://npm.postfmly.com/cve-lite-cli/-/cve-lite-cli-1.41.1.tgz", { "dependencies": { "better-sqlite3": "^12.8.0", "fflate": "^0.8.3", "semver": "^7.8.5", "yaml": "^2.7.1", "yarn-lockfile": "^1.1.0" }, "bin": { "cve-lite": "dist/index.js" } }, "sha512-mHMrtDHwzlRp9N8wTpm8QHIzxhdv67CF60OKg41a2Htw+2SvBS8N+OI9VfpQN4rS9nPDpv5O5RHd1P+HQHibYg=="],
 
     "decompress-response": ["decompress-response@6.0.0", "https://npm.postfmly.com/decompress-response/-/decompress-response-6.0.0.tgz", { "dependencies": { "mimic-response": "^3.1.0" } }, "sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ=="],
 

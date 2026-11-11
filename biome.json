@@ -18,6 +18,8 @@
               ":BLANK_LINE:",
               "react",
               ":BLANK_LINE:",
+              "@tabler/icons-react",
+              ":BLANK_LINE:",
               "@mantine/**",
               ":BLANK_LINE:",
               "@postfmly/**",
