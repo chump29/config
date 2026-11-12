@@ -212,7 +212,6 @@
         "useAtomicUpdates": "error",
         "useBlockStatementOverIife": "error",
         "useCapitalizedConstructors": "error",
-        "useConsistentBooleanName": "error",
         "useConsistentJsonFileRead": "error",
         "useConsistentLightnessNotation": "error",
         "useConsistentTupleLabels": "error",
@@ -248,6 +247,12 @@
           "level": "error",
           "options": {
             "ignore": ["e", "err"]
+          }
+        },
+        "useConsistentBooleanName": {
+          "level": "error",
+          "options": {
+            "ignore": ["b"]
           }
         },
         "useConsistentFontWeightNotation": {
