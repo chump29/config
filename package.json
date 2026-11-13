@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.27",
+  "version": "1.6.28",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -39,12 +39,12 @@
     "@biomejs/biome": "^2.6.7",
     "@types/bun": "^1.4.4",
     "@types/node": "^26.6.6",
-    "cspell": "^10.4.1",
+    "cspell": "^10.5.0",
     "globals": "^17.14.0"
   },
   "devDependencies": {
     "bunup": "^0.16.32",
-    "cve-lite-cli": "^1.41.1"
+    "cve-lite-cli": "^1.41.4"
   },
   "packageManager": "bun@1.4.4",
   "engines": {
