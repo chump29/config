@@ -1,12 +1,11 @@
 {
-  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.6.8/schema.json",
   "assist": {
     "actions": {
       "source": {
         "noDuplicateClasses": "on",
         "useSortedAttributes": "on",
         "useSortedEnumMembers": "on",
-        "useSortedPackageJson": "on",
         "useSortedProperties": "on",
         "organizeImports": {
           "level": "on",
@@ -65,9 +64,7 @@
       "!!db/**/*",
       "db/schema.ts",
       "!!dist",
-      "!!node_modules",
-      "!!package.json",
-      "!!tsconfig.json"
+      "!!node_modules"
     ]
   },
   "formatter": {
@@ -137,13 +134,17 @@
         "noAwaitInPromiseMethods": "error",
         "noBaseToString": "error",
         "noBooleanSortComparator": "error",
+        "noBufferConstructor": "error",
         "noChainedComparison": "error",
+        "noConfusingArraySplice": "error",
         "noConsoleSpaces": "error",
         "noConstantComparisons": "error",
         "noDanglingUnderscore": "error",
         "noDoubleComparison": "error",
+        "noDrizzleDbObjectInsideTransaction": "error",
         "noDuplicateTypeConstituents": "error",
         "noDynamicDelete": "error",
+        "noDynamicRequire": "error",
         "noEagerArrayMethodsInLoops": "error",
         "noErasingOperation": "error",
         "noExcessiveNestedBlocks": "error",
@@ -153,6 +154,7 @@
         "noInvalidFileInputAccept": "error",
         "noInvalidRemoveEventListener": "error",
         "noJsonUnsafeValues": "error",
+        "noLateCurrentTargetAccess": "error",
         "noLateEventControl": "error",
         "noMagicArrayFlatDepth": "error",
         "noMapSpread": "error",
@@ -161,6 +163,8 @@
         "noMismatchedMapKey": "error",
         "noMisplacedListElements": "error",
         "noMissingThrow": "error",
+        "noMisusedPromises": "error",
+        "noMisusedSpread": "error",
         "noNegatedArrayPredicate": "error",
         "noNegationInEqualityCheck": "error",
         "noNestedSwitch": "error",
@@ -183,6 +187,7 @@
         "noSinglePromiseInPromiseMethods": "error",
         "noSubtractionComparison": "error",
         "noThisOutsideOfClass": "error",
+        "noTripleSlashReference": "error",
         "noUndeclaredClasses": "error",
         "noUninvokedArrayCallback": "error",
         "noUnmodifiedLoopCondition": "error",
@@ -206,17 +211,23 @@
         "noUselessSpread": "error",
         "noUselessTypeAssertion": "error",
         "noYamlBooleanKeys": "error",
+        "noYamlEmptyMapKeys": "error",
+        "noYamlEmptyMapValues": "error",
+        "noYamlEmptySequenceEntries": "error",
         "noZeroFractions": "error",
         "noZeroLengthUnit": "error",
         "useAccessorPairs": "error",
         "useAtomicUpdates": "error",
         "useBlockStatementOverIife": "error",
+        "useCalledWith": "error",
         "useCapitalizedConstructors": "error",
         "useConsistentJsonFileRead": "error",
         "useConsistentLightnessNotation": "error",
         "useConsistentTupleLabels": "error",
         "useConsistentUnicodeBom": "error",
         "useExpectToContain": "error",
+        "useExpectToHaveBeenCalled": "error",
+        "useExpectToHaveBeenCalledTimes": "error",
         "useExplicitType": "error",
         "useFlatMathMinMax": "error",
         "useGlobalRegexInMatchAll": "error",
@@ -231,16 +242,22 @@
         "useNamedFunction": "error",
         "useNullishCoalescing": "error",
         "useObjectFromEntries": "error",
+        "usePackageJsonCpu": "error",
+        "usePackageJsonEngines": "error",
         "usePackageJsonValidCpu": "error",
         "usePackageJsonValidEngines": "error",
+        "usePackageJsonValidLicense": "error",
         "usePromiseRejectErrors": "error",
         "useReactCompiler": "error",
         "useSetSize": "error",
         "useSimplifiedBooleanReturn": "error",
+        "useSpyOn": "warn",
         "useStringStartsEndsWith": "error",
         "useTailwindShorthandClasses": "error",
         "useTailwindVariablesShorthand": "error",
+        "useTopLevelRequire": "error",
         "useValidCharacterComparison": "error",
+        "useValidNamespaceImports": "error",
         "useValidTestTitle": "error",
         "useWhileLoopCondition": "error",
         "useCatchErrorName": {
@@ -363,6 +380,19 @@
       }
     }
   },
+  "overrides": [
+    {
+      "includes": ["package.json"],
+      "assist": {
+        "actions": {
+          "source": {
+            "useSortedKeys": "off",
+            "useSortedPackageJson": "on"
+          }
+        }
+      }
+    }
+  ],
   "vcs": {
     "clientKind": "git",
     "defaultBranch": "main",

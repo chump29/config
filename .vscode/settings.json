@@ -147,7 +147,7 @@
     "**/node_modules/**": true
   },
   "json.schemaDownload.trustedDomains": {
-    "https://biomejs.dev/schemas/latest/": true,
+    "https://biomejs.dev/schemas/": true,
     "https://html-validate.org/schemas/": true,
     "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
   },
