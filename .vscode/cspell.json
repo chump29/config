@@ -60,6 +60,7 @@
     "FURB",
     "getpid",
     "gitea",
+    "hashkey",
     "healthcheck",
     "hono",
     "htmlq",
