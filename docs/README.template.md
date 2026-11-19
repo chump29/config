@@ -1,6 +1,6 @@
 # @postfmly/config
 
-### Configuration files for projects <!-- markdownlint-disable MD001 -->
+### Configuration files for projects
 
 #### Provides packages and configuration files for:
 
@@ -18,7 +18,7 @@
 ![CSpell](https://img.shields.io/badge/CSpell-$_cspell-informational?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACfklEQVR4nOzVMUpjURxH4ZuZdFNkapvEvSSLEFyGRRBcll22kMJdiE1qQYltykfg+FC+r/4Xv+Jc7vJ8Po+fabfbHQ6HicdP+7F/iAdx4c/cA/idhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFQlgkhEVCWCSERUJYJIRFYrHdbufecKXj8Xg6nSYe367HZhMPAmq+QhLCIiEsEsIiISwSwiIhLBLCIiEsEsIiISwSy/XfuSdc6/VzvE8+Xi3Gf4/oGy2eb+aecK3Ht/HyMfX4/t+4W7V7uOQVkxAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBYJYZEQFglhkRAWCWGREBaJrwAAAP//lQwX4xbXkzUAAAAASUVORK5CYII= "CSpell")
 
 ![NO AI](https://img.shields.io/badge/NO-AI-orange?style=plastic "NO AI") &nbsp;
-![License](https://img.shields.io/github/license/$_user/$_repo?style=plastic&color=blueviolet&label=%20License&logo=gplv3 "GPLv3") &nbsp; <!-- markdownlint-disable MD013 -->
+![License](https://img.shields.io/github/license/$_user/$_repo?style=plastic&color=blueviolet&label=%20License&logo=gplv3 "GPLv3") &nbsp;
 ![CVE Scan](https://img.shields.io/badge/CVE%20Scan-Pass-success?style=plastic&logo=owasp "CVE Scan")
 
 ---
@@ -55,6 +55,7 @@ bun run link-configs
 // biome.json
 
 {
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "extends": ["@postfmly/config/biome.json"]
 }
 ```
@@ -65,6 +66,7 @@ bun run link-configs
 // tsconfig.json
 
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./node_modules/@postfmly/config/tsconfig.json",
   "compilerOptions": {
     "types": [
@@ -111,7 +113,7 @@ bun run lint
 ./publish.sh
 ```
 
-###### _NOTES:_ <!-- markdownlint-disable MD0024 -->
+###### _NOTES:_
 
 - ###### _Includes building package_
 

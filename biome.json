@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.6.8/schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "assist": {
     "actions": {
       "source": {
@@ -221,6 +221,7 @@
         "useBlockStatementOverIife": "error",
         "useCalledWith": "error",
         "useCapitalizedConstructors": "error",
+        "useConsistentHeadingLevel": "off",
         "useConsistentJsonFileRead": "error",
         "useConsistentLightnessNotation": "error",
         "useConsistentTupleLabels": "error",
@@ -229,6 +230,7 @@
         "useExpectToHaveBeenCalled": "error",
         "useExpectToHaveBeenCalledTimes": "error",
         "useExplicitType": "error",
+        "useFencedCodeLanguage": "error",
         "useFlatMathMinMax": "error",
         "useGlobalRegexInMatchAll": "error",
         "useGlobalRegexInReplaceAll": "error",
@@ -251,10 +253,12 @@
         "useReactCompiler": "error",
         "useSetSize": "error",
         "useSimplifiedBooleanReturn": "error",
+        "useSingleTopLevelHeading": "error",
         "useSpyOn": "warn",
         "useStringStartsEndsWith": "error",
         "useTailwindShorthandClasses": "error",
         "useTailwindVariablesShorthand": "error",
+        "useTopLevelHeading": "error",
         "useTopLevelRequire": "error",
         "useValidCharacterComparison": "error",
         "useValidNamespaceImports": "error",
@@ -357,6 +361,7 @@
         "noConditionalExpect": "error",
         "noDuplicatedSpreadProps": "error",
         "noEmptyBlockStatements": "error",
+        "noEmptySource": "error",
         "noEqualsToNull": "error",
         "noForIn": "error",
         "noGlobalIsNan": "error",
