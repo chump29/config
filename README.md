@@ -55,7 +55,7 @@ bun run link-configs
 // biome.json
 
 {
-  "": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "extends": ["@postfmly/config/biome.json"]
 }
 ```
@@ -66,7 +66,7 @@ bun run link-configs
 // tsconfig.json
 
 {
-  "": "https://json.schemastore.org/tsconfig",
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./node_modules/@postfmly/config/tsconfig.json",
   "compilerOptions": {
     "types": [

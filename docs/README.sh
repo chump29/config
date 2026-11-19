@@ -21,6 +21,6 @@ echo -e " • cspell: $_cspell"
 
 echo -e "\n🛠️  Creating README.md..."
 
-envsubst < README.template.md > ../README.md
+envsubst < README.template.md | sed -e 's/__DOLLAR__/$/g' > ../README.md
 
 echo -e "\n✔️  Done!\n"
