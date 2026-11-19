@@ -73,37 +73,6 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  "better-comments.tags": [
-    {
-      "background": "transparent",
-      "bold": true,
-      "color": "#a6192e",
-      "tag": "!"
-    },
-    {
-      "background": "transparent",
-      "bold": true,
-      "color": "#0057b8",
-      "tag": "?"
-    },
-    {
-      "background": "transparent",
-      "color": "#474747",
-      "tag": "//"
-    },
-    {
-      "background": "transparent",
-      "bold": true,
-      "color": "#ff9900",
-      "tag": "todo"
-    },
-    {
-      "background": "transparent",
-      "bold": true,
-      "color": "#04b34f",
-      "tag": "*"
-    }
-  ],
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.formatDocument": "explicit"
