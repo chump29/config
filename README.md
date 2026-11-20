@@ -56,8 +56,7 @@ bun run link-configs
 
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["@postfmly/config/biome.json"],
-  "root": false
+  "extends": ["@postfmly/config/biome.json"]
 }
 ```
 
