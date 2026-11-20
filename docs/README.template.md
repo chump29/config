@@ -56,7 +56,8 @@ bun run link-configs
 
 {
   "__DOLLAR__schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["@postfmly/config/biome.json"]
+  "extends": ["@postfmly/config/biome.json"],
+  "root": false
 }
 ```
 
@@ -66,7 +67,6 @@ bun run link-configs
 // tsconfig.json
 
 {
-  "__DOLLAR__schema": "https://json.schemastore.org/tsconfig",
   "extends": "./node_modules/@postfmly/config/tsconfig.json",
   "compilerOptions": {
     "types": [

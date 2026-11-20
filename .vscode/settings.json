@@ -115,8 +115,8 @@
     "**/node_modules/**": true
   },
   "json.schemaDownload.trustedDomains": {
-    "https://html-validate.org/schemas/": true,
-    "https://json.schemastore.org/": true
+    "https://biomejs.dev/schemas/": true,
+    "https://html-validate.org/schemas/": true
   },
   "pylint.args": [
     "--max-line-length=120",
