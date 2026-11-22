@@ -6,7 +6,6 @@
     "**/__pycache__",
     "**/.env*",
     "**/.git/",
-    "**/.husky/_/",
     "**/.ruff_cache/",
     "**/.venv/",
     "**/biome.json",

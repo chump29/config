@@ -108,9 +108,6 @@
       }
     ]
   },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
   "files.watcherExclude": {
     "**/.git/**": true,
     "**/.venv/**": true,

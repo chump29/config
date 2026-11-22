@@ -46,26 +46,9 @@
       }
     }
   },
-  "css": {
-    "parser": {
-      "tailwindDirectives": true
-    }
-  },
   "files": {
     "ignoreUnknown": true,
-    "includes": [
-      "**",
-      "!!.husky/prepare.*",
-      "!!.pnpm-store",
-      "!!.vscode",
-      "!!**/*.html",
-      "!!bun.lock",
-      "!!coverage",
-      "!!db/**/*",
-      "db/schema.ts",
-      "!!dist",
-      "!!node_modules"
-    ]
+    "includes": ["**", "!!.vscode", "!!bun.lock", "!!coverage", "!!db/**/*", "db/schema.ts", "!!dist", "!!node_modules"]
   },
   "formatter": {
     "indentStyle": "space",
@@ -256,8 +239,6 @@
         "useSingleTopLevelHeading": "error",
         "useSpyOn": "warn",
         "useStringStartsEndsWith": "error",
-        "useTailwindShorthandClasses": "error",
-        "useTailwindVariablesShorthand": "error",
         "useTopLevelHeading": "error",
         "useTopLevelRequire": "error",
         "useValidCharacterComparison": "error",
