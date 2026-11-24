@@ -230,6 +230,7 @@
         "useExpectToHaveBeenCalledTimes": "error",
         "useExpectToHaveLength": "error",
         "useExpectToStrictEqual": "error",
+        "useExplicitReturnType": "error",
         "useExplicitType": "error",
         "useFencedCodeLanguage": "error",
         "useFlatMathMinMax": "error",
