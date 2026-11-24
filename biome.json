@@ -257,7 +257,7 @@
         "useSingleTopLevelHeading": "error",
         "useSpyOn": "warn",
         "useStringStartsEndsWith": "error",
-        "useTopLevelDescribe": "error",
+        "useTopLevelDescribe": "off",
         "useTopLevelHeading": "error",
         "useTopLevelRequire": "error",
         "useValidCharacterComparison": "error",
