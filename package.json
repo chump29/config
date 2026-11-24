@@ -1,6 +1,6 @@
 {
   "name": "@postfmly/config",
-  "version": "1.6.42",
+  "version": "1.6.43",
   "description": "Configuration files",
   "keywords": [
     "config"
@@ -36,7 +36,7 @@
     "undici-types": "8.13.1"
   },
   "dependencies": {
-    "@biomejs/biome": "^2.6.8",
+    "@biomejs/biome": "^2.6.9",
     "@types/bun": "^1.4.5",
     "@types/node": "^26.6.6",
     "cspell": "^10.5.2",
