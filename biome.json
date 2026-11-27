@@ -135,6 +135,7 @@
         "noExcessiveNestedBlocks": "error",
         "noExcessiveSelectorComplexity": "error",
         "noExpectToHaveBeenCalledOnce": "error",
+        "noFloatingPromises": "error",
         "noImmediateMutation": "error",
         "noImpliedEval": "error",
         "noInvalidFetchOptions": "error",
